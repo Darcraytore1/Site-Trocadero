@@ -1,17 +1,9 @@
 body
 {
-	background-color: #3c3c3c;
+	background-color: black;
 }
 
 p
-{
-	color: white;
-}
-table 
-{
-	width: 100%;
-}
-table tr th a
 {
 	color: white;
 }
@@ -31,15 +23,17 @@ table tr th a
 .flotte {
 	padding: 0px;
 	margin: -5px;
-	float: left;
+	float:left;
 }
+
 
 #entete, #menu, #contenu, #footer{
 	padding: 1px 0;
 }
 
 #entete{
-	text-align: center;
+	text-align:center;
+	background:url(LOGO.png) top left no-repeat;
 }
 
 #main{
@@ -48,21 +42,21 @@ table tr th a
 }
 
 #menu  {
-	float: left;
-	width: 240px;
+float:left;
+width:240px;
 
 }
 
 #contenu {
-	margin-left: 245px;
+margin-left:245px;
 
 }
 
 #footer {
 
-	text-align: center;
-	clear: both;
-	padding: 50px;
-	background: url(image/UNESCO.png) left no-repeat, url(image/UPEM.png) center no-repeat;
+text-align:center;
+clear:both;
+padding: 50px;
+background:url(UNESCO.png) left no-repeat,url(UPEM.png) center no-repeat;
 
 }
