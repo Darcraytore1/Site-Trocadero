@@ -1,0 +1,60 @@
+body
+{
+	background-color: black;
+}
+
+p
+{
+	color: white;
+}
+
+.gros
+{
+	font-size: 30px;
+}
+
+.titre
+{
+	font-size: 30px;
+	text-align: center;
+
+}
+
+.flotte {
+	padding: 0px;
+	margin: -5px;
+	float:left;
+}
+
+#entete, #menu, #contenu, #footer{
+	padding: 1px 0;
+}
+
+#entete{
+	text-align:center;
+}
+
+#main{
+	max-width: 1900px;
+
+}
+
+#menu  {
+float:left;
+width:240px;
+
+}
+
+#contenu {
+margin-left:245px;
+
+}
+
+#footer {
+
+text-align:center;
+clear:both;
+padding: 50px;
+background:url(UNESCO.png) left no-repeat,url(UPEM.png) center no-repeat;
+
+}
