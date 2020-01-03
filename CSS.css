@@ -7,14 +7,6 @@ p
 {
 	color: white;
 }
-table 
-{
-	width: 100%;
-}
-table tr th a
-{
-	color: white;
-}
 
 .gros
 {
@@ -65,4 +57,40 @@ table tr th a
 	padding: 50px;
 	background: url(image/UNESCO.png) left no-repeat, url(image/UPEM.png) center no-repeat;
 
+}
+
+#boutons
+{
+	font-size: 40px;
+	display: flex;
+    justify-content: space-around;
+}
+
+#boutons .bouton
+{
+	background-color: #f34c29;
+	width: 18%;
+	align-items: center;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
 }
