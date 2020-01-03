@@ -1,9 +1,17 @@
 body
 {
-	background-color: black;
+	background-color: #3c3c3c;
 }
 
 p
+{
+	color: white;
+}
+table 
+{
+	width: 100%;
+}
+table tr th a
 {
 	color: white;
 }
