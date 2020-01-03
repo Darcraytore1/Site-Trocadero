@@ -10,31 +10,31 @@
 
 
 	<p class="gros">
-		Place du Trocadéro
+		<a href="Place_du_Trocadero.php"> Place du Trocadéro </a>
 	</p>
 	<hr width="20%" color="red" align="left">
 
 
 	<p class="gros">
-		Tour Eiffel
+		<a href="Tour_Eiffel.php"> Tour Eiffel </a>
 	</p>
 	<hr width="20%" color="red" align="left">
 
 
 	<p class="gros">
-		Palais de Chaillot
+		<a href="Palais_de_Chaillot.php"> Palais_de_Chaillot </a>
 	</p>
 	<hr width="20%" color="red" align="left">
 
 
 	<p class="gros">
-		Jardins du Trocadéro
+		<a href="Jardins_du_Trocadero.php"> Jardins du Trocadéro </a>
 	</p>
 	<hr width="20%" color="red" align="left">
 
 
 	<p class="gros">
-		Champ de Mars
+		<a href="Champ_de_Mars.php"> Champ de Mars </a>
 	</p>
 	<hr width="20%" color="red" align="left">
 
