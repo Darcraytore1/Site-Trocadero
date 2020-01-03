@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title>Accueil</title>
+	<title>Home</title>
 	<link rel="stylesheet" type="text/css" href="../CSS.css">
 	<meta charset="utf-8">
 </head>
@@ -11,8 +11,9 @@
 		<div id = "entete">
 
 			<p class="flotte">
-				
-				<img src="../image/FRANCAIS.png">
+				<a href="Accueil.php">
+					<img src="../image/FRANCAIS.png">
+				</a>
 				<a href="Accueil_eng.php">
 					<img src="../image/ANGLAIS.png">
 				</a>
@@ -20,7 +21,7 @@
 
 			<p class="titre">
 				<FONT face="Comic Sans ms">
-					Rallye culturelle du trocadéro
+					Cultural Rally of the Trocadero
 				</FONT>
 			</p>
 
@@ -30,16 +31,16 @@
 
 			<div id="boutons">
 			    <div class="bouton">
-			    	<a href="Accueil.php"> Accueil </a>
+			    	<a href="Accueil_eng.php"> Home </a>
 			    </div>
 			    <div class="bouton">
-			    	<a href="Rallye.php"> Rallye </a>
+			    	<a href="Rallye_eng.php"> Rally </a>
 			    </div>
 			    <div class="bouton">
-			    	<a href="Trocadero.php"> Le Trocadero </a>	
+			    	<a href="Trocadero_eng.php"> Trocadero </a>	
 			    </div>
 			    <div class="bouton">
-			   		<a href="Contact.php"> Contact </a>
+			   		<a href="Contact_eng.php"> Contact </a>
 				</div>
 			</div>
 		</div>
