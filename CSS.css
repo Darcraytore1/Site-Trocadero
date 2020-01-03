@@ -13,17 +13,15 @@ p
 	font-size: 30px;
 }
 
+.flotte {
+	float:right;
+}
+
 .titre
 {
 	font-size: 30px;
 	text-align: center;
 
-}
-
-.flotte {
-	padding: 0px;
-	margin: -5px;
-	float: left;
 }
 
 #entete, #menu, #contenu, #footer{
@@ -32,6 +30,7 @@ p
 
 #entete{
 	text-align: center;
+	background: url(image/LOGO.png) top left no-repeat;
 }
 
 #main{
