@@ -23,7 +23,7 @@ p
 .flotte {
 	padding: 0px;
 	margin: -5px;
-	float:left;
+	float: left;
 }
 
 #entete, #menu, #contenu, #footer{
@@ -31,7 +31,7 @@ p
 }
 
 #entete{
-	text-align:center;
+	text-align: center;
 }
 
 #main{
@@ -40,21 +40,21 @@ p
 }
 
 #menu  {
-float:left;
-width:240px;
+	float: left;
+	width: 240px;
 
 }
 
 #contenu {
-margin-left:245px;
+	margin-left: 245px;
 
 }
 
 #footer {
 
-text-align:center;
-clear:both;
-padding: 50px;
-background:url(image/UNESCO.png) left no-repeat,url(image/UPEM.png) center no-repeat;
+	text-align: center;
+	clear: both;
+	padding: 50px;
+	background: url(image/UNESCO.png) left no-repeat, url(image/UPEM.png) center no-repeat;
 
 }
