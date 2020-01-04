@@ -1,4 +1,11 @@
 <?php 
+if (!$_SERVER["QUERY_STRING"]) {
+	$lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
+	if ($lang != 'fr')
+	    $lang = 'eng';
+	header("Location: Accueil.php?$lang");
+}
+
 require 'base_php/debut_base.php'; 
 if ($_SERVER["QUERY_STRING"] === "fr") {
 	require "contenu/contenu_fr.php"; 
