@@ -13,11 +13,11 @@
 		<div id = "entete">
 
 			<p class="flotte">
-				<a href="Accueil.php">
-					<img src="../image/FRANCAIS.png">
+				<a href="index.php">
+					<img src="../image/french_flag.png">
 				</a>
 				<a href="Accueil_eng.php">
-					<img src="../image/ANGLAIS.png">
+					<img src="../image/english_flag.png">
 				</a>
 			</p>
 

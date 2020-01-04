@@ -59,7 +59,7 @@ a:hover {
 
 #entete{
 	text-align: center;
-	background: url(image/LOGO.png) top left no-repeat;
+	background: url(image/logo.png) top left no-repeat;
 }
 
 #main{
@@ -85,7 +85,7 @@ a:hover {
 	left: 0;
 	right: 0;
 	clear: both;
-	background: url(image/UNESCO.png) left no-repeat, url(image/UPEM.png) center no-repeat;
+	background: url(image/unesco.png) left no-repeat, url(image/upem.png) center no-repeat;
 
 }
 

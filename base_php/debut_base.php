@@ -20,10 +20,10 @@ if ($_SERVER["QUERY_STRING"] === "fr") {
 
 			<p class="flotte">
 				<a href="<?php echo $_SERVER["PHP_SELF"]; ?>?fr">
-					<img src="../image/FRANCAIS.png">
+					<img src="../image/french_flag.png">
 				</a>
 				<a href="<?php echo $_SERVER["PHP_SELF"]; ?>?eng">
-					<img src="../image/ANGLAIS.png">
+					<img src="../image/english_flag.png">
 				</a>
 			</p>
 
@@ -39,8 +39,8 @@ if ($_SERVER["QUERY_STRING"] === "fr") {
 			<br/>
 
 			<div id="boutons">
-				<div class="bouton <?php if ($_SERVER["SCRIPT_NAME"] === "/Accueil.php") { ?>active<?php } ?>">
-					<a href="Accueil.php?<?php echo $_SERVER["QUERY_STRING"] ?>"> <?php echo Accueil; ?> </a>
+				<div class="bouton <?php if ($_SERVER["SCRIPT_NAME"] === "/index.php") { ?>active<?php } ?>">
+					<a href="index.php?<?php echo $_SERVER["QUERY_STRING"] ?>"> <?php echo Accueil; ?> </a>
 				</div>
 				<div class="bouton <?php if ($_SERVER["SCRIPT_NAME"] === "/Rallye.php") { ?>active<?php } ?>">
 					<a href="Rallye.php?<?php echo $_SERVER["QUERY_STRING"] ?>"> <?php echo Rallye; ?> </a>

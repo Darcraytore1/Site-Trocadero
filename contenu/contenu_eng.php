@@ -14,7 +14,7 @@ define("Contact", "Contact");
 define("Mentions_legales", "Legal Notice");
 define("Statistiques", "Statistics");
 
-// Accueil.php
+// index.php
 
 define("Titre_Accueil", "Bienvenue");
 define("Contenu_Accueil", <<<contenu_accueil
