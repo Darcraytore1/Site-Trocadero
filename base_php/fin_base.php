@@ -1,8 +1,16 @@
+<?php 
+if ($_SERVER["QUERY_STRING"] === "fr") {
+	require "contenu/contenu_fr.php"; 
+} else {
+	require "contenu/contenu_eng.php";
+} 
+?>
+
 	<div id="footer">
 		<p style="float: right;">
-			Mentions légales
+			<?php echo Mentions_legales; ?> 
 			<br/>
-			Statistiques
+			<?php echo Statistiques; ?> 
 		</p>
 
 	</div>

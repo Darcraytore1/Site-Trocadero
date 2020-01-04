@@ -1,40 +1,47 @@
-<?php require 'base_php/debut_base.php'; ?>
+<?php 
+require 'base_php/debut_base.php';
+if ($_SERVER["QUERY_STRING"] === "fr") {
+	require "contenu/contenu_fr.php"; 
+} else {
+	require "contenu/contenu_eng.php";
+}
+?>
 
 <div id="main">
 
 
 	<p class="gros">
-		A visiter
+		<?php echo Titre_Rallye; ?> 
 	</p>
 	<hr width="50%" color="red" align="left">
 
 
 	<p class="gros">
-		<a href="Place_du_Trocadero.php"> Place du Trocadéro </a>
+		<a href="Place_du_Trocadero.php?<?php echo $_SERVER["QUERY_STRING"] ?>"> <?php echo Place_du_Trocadéro; ?> </a>
 	</p>
 	<hr width="20%" color="red" align="left">
 
 
 	<p class="gros">
-		<a href="Tour_Eiffel.php"> Tour Eiffel </a>
+		<a href="Tour_Eiffel.php?<?php echo $_SERVER["QUERY_STRING"] ?>"> <?php echo Tour_Eiffel; ?> </a>
 	</p>
 	<hr width="20%" color="red" align="left">
 
 
 	<p class="gros">
-		<a href="Palais_de_Chaillot.php"> Palais_de_Chaillot </a>
+		<a href="Palais_de_Chaillot.php?<?php echo $_SERVER["QUERY_STRING"] ?>"> <?php echo Palais_de_Chaillot; ?> </a>
 	</p>
 	<hr width="20%" color="red" align="left">
 
 
 	<p class="gros">
-		<a href="Jardins_du_Trocadero.php"> Jardins du Trocadéro </a>
+		<a href="Jardins_du_Trocadero.php?<?php echo $_SERVER["QUERY_STRING"] ?>"> <?php echo Jardins_du_Trocadéro; ?> </a>
 	</p>
 	<hr width="20%" color="red" align="left">
 
 
 	<p class="gros">
-		<a href="Champ_de_Mars.php"> Champ de Mars </a>
+		<a href="Champ_de_Mars.php?<?php echo $_SERVER["QUERY_STRING"] ?>"> <?php echo Champ_de_Mars; ?> </a>
 	</p>
 	<hr width="20%" color="red" align="left">
 

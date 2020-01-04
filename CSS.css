@@ -1,11 +1,40 @@
 body
 {
-	background-color: #3c3c3c;
+	background-color: #2d2d2d;
 }
 
 p
 {
 	color: white;
+}
+
+a:link {
+	color: #ffffff;
+	background-color: transparent;
+  	text-decoration: none;
+}
+
+a:visited {
+	color: #ffffff;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:active {
+	color: black;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #ffffff;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+.active a:visited
+{
+	color: black;
 }
 
 .gros
@@ -69,31 +98,14 @@ p
 
 #boutons .bouton
 {
-	background-color: #f34c29;
+	background-color: #4c4c4c;
 	width: 18%;
-	align-items: center;
 }
 
-a:link {
-	color: black;
-	background-color: transparent;
-  	text-decoration: none;
+#boutons .active
+{
+	background-color: #f34c29;
 }
 
-a:visited {
-	color: black;
-	background-color: transparent;
-	text-decoration: none;
-}
 
-a:hover {
-	color: #ffffff;
-	background-color: transparent;
-	text-decoration: underline;
-}
 
-a:active {
-	color: #ffffff;
-	background-color: transparent;
-	text-decoration: underline;
-}

@@ -1,3 +1,5 @@
+<?php require "contenu/contenu_fr.php"; ?>
+
 <!DOCTYPE html>
 <html>
 
