@@ -31,7 +31,7 @@ define("Contenu_Accueil", <<<contenu_accueil
 	<br/>
 	Ce site a été crée par un groupe d'étudiant venant de l'IUT de Marne la vallée de la filière Informatique.
 	<br/>
-contenu_accueil;
+contenu_accueil
 );
 
 
@@ -61,7 +61,7 @@ define("Contenu_Contact", <<<contenu_contact
 	adresse email: damienalbisson@gmail.com
 <br/>
 	telephone : ...
-contenu_contact;
+contenu_contact
 );
 ?>
 
