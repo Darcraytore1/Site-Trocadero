@@ -47,7 +47,7 @@ define("Champ_de_Mars", "Fields of Mars");
 // Contact.php
 
 define("Contenu_Contact", <<<contenu_contact
-	HOUCCINE Thomas : Director
+	HOUCINE Thomas : Director
 <br/>
 	DELPORTE Logan : Designer
 <br/>
