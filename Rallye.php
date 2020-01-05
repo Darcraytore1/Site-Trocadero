@@ -1,6 +1,6 @@
 <?php 
 require 'base_php/debut_base.php'; 
-if ($_SERVER["QUERY_STRING"] === "fr") {
+if ($_GET["lang"] === "fr") {
 	require "contenu/contenu_fr.php"; 
 } else {
 	require "contenu/contenu_eng.php";

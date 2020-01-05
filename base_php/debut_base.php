@@ -1,5 +1,5 @@
 <?php 
-if ($_SERVER["QUERY_STRING"] === "fr") {
+if ($_GET["lang"] === "fr") {
 	require "contenu/contenu_fr.php"; 
 } else {
 	require "contenu/contenu_eng.php";
@@ -19,11 +19,11 @@ if ($_SERVER["QUERY_STRING"] === "fr") {
 		<div id = "entete">
 
 			<p class="flotte">
-				<a href="<?php echo $_SERVER["PHP_SELF"]; ?>?fr">
+				<a href="<?php echo $_SERVER["PHP_SELF"]; ?>?lang=fr">
 					<img src="../image/french_flag.png">
 				</a>
 
-				<a href="<?php echo $_SERVER["PHP_SELF"]; ?>?eng">
+				<a href="<?php echo $_SERVER["PHP_SELF"]; ?>?lang=eng">
 					<img src="../image/english_flag.png">
 				</a>
 			</p>
@@ -41,19 +41,19 @@ if ($_SERVER["QUERY_STRING"] === "fr") {
 
 			<div id="boutons">
 				<div class="bouton <?php if ($_SERVER["SCRIPT_NAME"] === "/index.php") { ?>active<?php } ?>">
-					<a href="index.php?<?php echo $_SERVER["QUERY_STRING"] ?>"> <?php echo Accueil; ?> </a>
+					<a href="index.php?lang=<?php echo $_GET["lang"] ?>"> <?php echo Accueil; ?> </a>
 				</div>
 
 				<div class="bouton <?php if ($_SERVER["SCRIPT_NAME"] === "/Rallye.php") { ?>active<?php } ?>">
-					<a href="Rallye.php?<?php echo $_SERVER["QUERY_STRING"] ?>"> <?php echo Rallye; ?> </a>
+					<a href="Rallye.php?lang=<?php echo $_GET["lang"] ?>"> <?php echo Rallye; ?> </a>
 				</div>
 
 				<div class="bouton <?php if ($_SERVER["SCRIPT_NAME"] === "/Trocadero.php") { ?>active<?php } ?>">
-					<a href="Trocadero.php?<?php echo $_SERVER["QUERY_STRING"] ?>"> <?php echo Trocadero; ?> </a>	
+					<a href="Trocadero.php?lang=<?php echo $_GET["lang"] ?>"> <?php echo Trocadero; ?> </a>	
 				</div>
 				
 				<div class="bouton <?php if ($_SERVER["SCRIPT_NAME"] === "/Contact.php") { ?>active<?php } ?>">
-					<a href="Contact.php?<?php echo $_SERVER["QUERY_STRING"] ?>"> <?php echo Contact; ?> </a>
+					<a href="Contact.php?lang=<?php echo $_GET["lang"] ?>"> <?php echo Contact; ?> </a>
 				</div>
 			</div>
 		</div>
