@@ -63,5 +63,13 @@ define("Contenu_Contact", <<<contenu_contact
 	telephone : ...
 contenu_contact
 );
+
+// Jardins_du_Trocadero.php
+
+define("Contenu_Jardins_du_Trocadero", <<<contenu_jardins_du_trocadero
+	TEST (fr)
+<br/>
+contenu_jardins_du_trocadero
+);
 ?>
 

@@ -24,7 +24,7 @@ define("Contenu_Accueil", <<<contenu_accueil
 	<br/>
 	Depending on the time you planned to play, you will chose one (or multiple) of the following routes...
 	<br/>
-	Easy route, you will need about 1 houres, Medium route, about 3 houres and Long route, about 5 houres.
+	Easy route, you will need about 1 houre, Medium route, about 3 houres and Long route, about 5 houres.
 	<br/>
 	Under the 'Trocadero' tab, you will find additional informations about specific monuments previously seen in game.
 	<br/>
@@ -62,5 +62,15 @@ define("Contenu_Contact", <<<contenu_contact
 	Phone Number : +33 6 12345678
 contenu_contact
 );
+
+// Jardins_du_Trocadero.php
+
+define("Contenu_Jardins_du_Trocadero", <<<contenu_jardins_du_trocadero
+	TEST (en)
+<br/>
+contenu_jardins_du_trocadero
+);
+
+
 ?>
 
