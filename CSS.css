@@ -89,6 +89,13 @@ a:hover {
 
 }
 
+.footer
+{
+	color: white;
+	display: flex;
+    justify-content: space-between;
+}
+
 #boutons
 {
 	font-size: 40px;
