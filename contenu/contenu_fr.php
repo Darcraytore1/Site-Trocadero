@@ -37,6 +37,8 @@ contenu_accueil
 
 // Rallye.php
 
+// Trocadero.php ??
+
 define("Titre_Rallye", "A visiter");
 define("Place_du_Trocadéro", "Place du Trocadéro");
 define("Tour_Eiffel", "Tour Eiffel");
@@ -58,9 +60,9 @@ define("Contenu_Contact", <<<contenu_contact
 <br/>
 	ALBISSON Damien : Codage
 <br/>
-	adresse email: damienalbisson@gmail.com
+	Adresse Email: damienalbisson@gmail.com
 <br/>
-	telephone : ...
+	Telephone : ...
 contenu_contact
 );
 
@@ -71,5 +73,30 @@ define("Contenu_Jardins_du_Trocadero", <<<contenu_jardins_du_trocadero
 <br/>
 contenu_jardins_du_trocadero
 );
+
+// Place_du_Trocadero.php
+
+define("Contenu_Place_du_Trocadero", <<<contenu_place_du_trocadero
+	TEST (fr)
+<br/>
+contenu_place_du_trocadero
+);
+
+// Palais_de_Chaillot.php
+
+define("Contenu_Palais_de_Chaillot", <<<contenu_palais_de_chaillot
+	TEST (fr)
+<br/>
+contenu_palais_de_chaillot
+);
+
+// Tour_Eiffel.php
+
+define("Contenu_Tour_Eiffel", <<<contenu_tour_eiffel
+	TEST (fr)
+<br/>
+contenu_tour_eiffel
+);
+
 ?>
 

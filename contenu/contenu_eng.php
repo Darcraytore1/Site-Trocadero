@@ -36,6 +36,8 @@ contenu_accueil
 
 // Rallye.php
 
+// Trocadero.php ??
+
 define("Titre_Rallye", "To Visit");
 define("Place_du_Trocadéro", "Trocadero Place");
 define("Tour_Eiffel", "Eiffel Tower");
@@ -69,6 +71,22 @@ define("Contenu_Jardins_du_Trocadero", <<<contenu_jardins_du_trocadero
 	TEST (en)
 <br/>
 contenu_jardins_du_trocadero
+);
+
+// Place_du_Trocadero.php
+
+define("Contenu_Place_du_Trocadero", <<<contenu_place_du_trocadero
+	TEST (en)
+<br/>
+contenu_place_du_trocadero
+);
+
+// Palais_de_Chaillot.php
+
+define("Contenu_Palais_de_Chaillot", <<<contenu_palais_de_chaillot
+	TEST (en)
+<br/>
+contenu_palais_de_chaillot
 );
 
 
