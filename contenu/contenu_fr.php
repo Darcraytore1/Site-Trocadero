@@ -48,7 +48,7 @@ define("Champ_de_Mars", "Champ de Mars");
 // Contact.php
 
 define("Contenu_Contact", <<<contenu_contact
-	HOUCCINE Thomas : Chef
+	HOUCINE Thomas : Chef
 <br/>
 	DELPORTE Logan : Design
 <br/>
