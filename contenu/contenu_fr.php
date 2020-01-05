@@ -98,5 +98,13 @@ define("Contenu_Tour_Eiffel", <<<contenu_tour_eiffel
 contenu_tour_eiffel
 );
 
+// Rallye.php
+
+define("Contenu_Rallye", <<<contenu_rallye
+	TEST (fr)
+<br/>
+contenu_rallye
+);
+
 ?>
 

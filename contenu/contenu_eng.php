@@ -89,6 +89,23 @@ define("Contenu_Palais_de_Chaillot", <<<contenu_palais_de_chaillot
 contenu_palais_de_chaillot
 );
 
+// Tour_Eiffel.php
+
+define("Contenu_Tour_Eiffel", <<<contenu_tour_eiffel
+	TEST (en)
+<br/>
+contenu_tour_eiffel
+);
+
+// Rallye.php
+
+define("Contenu_Rallye", <<<contenu_rallye
+	TEST (en)
+<br/>
+contenu_rallye
+);
+
+
 
 ?>
 
