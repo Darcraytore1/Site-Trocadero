@@ -16,20 +16,19 @@ define("Statistiques", "Statistics");
 
 // index.php
 
-define("Titre_Accueil", "Bienvenue");
+define("Titre_Accueil", "Welcome");
 define("Contenu_Accueil", <<<contenu_accueil
-	Ce site a pour but de vous proposer un rallye culturel autour de la place du
-	Trocadero.
+	This website's goal is to create a cultural rally, around the Trocadero area (Paris)
 	<br/>
-	Pour ce faire sur la page rallye, il y a trois parcours en fonction du temps que
-	vous avez à consacré.
+	You will find 3 differents routes under the 'rally' page.
 	<br/>
-	1 parcour cour d'environ 1h, un parcour moyen d'environ 3h et un parcour long d'environ 5h.
+	Depending on the time you planned to play, you will chose one (or multiple) of the following routes...
 	<br/>
-	Sur la page Le Trocadero vous pouvez obtenir des informations supplémentaires sur 
-	certains monuments que vous verrez pendant le rallye.
+	Easy route, you will need about 1 houres, Medium route, about 3 houres and Long route, about 5 houres.
 	<br/>
-	Ce site a été crée par un groupe d'étudiant venant de l'IUT de Marne la vallée de la filière Informatique.
+	Under the 'Trocadero' tab, you will find additional informations about specific monuments previously seen in game.
+	<br/>
+	This website has been made by a group of Marne La Vallée's IUT students.
 	<br/>
 contenu_accueil
 );
@@ -37,30 +36,30 @@ contenu_accueil
 
 // Rallye.php
 
-define("Titre_Rallye", "A visiter");
-define("Place_du_Trocadéro", "Place du Trocadéro");
-define("Tour_Eiffel", "Tour Eiffel");
-define("Palais_de_Chaillot", "Palais de Chaillot");
-define("Jardins_du_Trocadéro", "Jardins du Trocadéro");
-define("Champ_de_Mars", "Champ de Mars");
+define("Titre_Rallye", "To Visit");
+define("Place_du_Trocadéro", "Trocadero Place");
+define("Tour_Eiffel", "Eiffel Tower");
+define("Palais_de_Chaillot", "Chaillot Palace");
+define("Jardins_du_Trocadéro", "Trocadero Gardens");
+define("Champ_de_Mars", "Fields of Mars");
 
 
 // Contact.php
 
 define("Contenu_Contact", <<<contenu_contact
-	HOUCCINE Thomas : Chef
+	HOUCCINE Thomas : Director
 <br/>
-	DELPORTE Logan : Design
+	DELPORTE Logan : Designer
 <br/>
-	DOS SANTOS Sebastien : Codage
+	DOS SANTOS Sebastien : Developer
 <br/>
-	DELMAS Jean : Communiquant
+	DELMAS Jean : Communication
 <br/>
-	ALBISSON Damien : Codage
+	ALBISSON Damien : Developer
 <br/>
-	adresse email: damienalbisson@gmail.com
+	Email Address: damienalbisson@gmail.com
 <br/>
-	telephone : ...
+	Phone Number : +33 6 12345678
 contenu_contact
 );
 ?>
