@@ -1,11 +1,3 @@
-<?php 
-if ($_GET["lang"] === "fr") {
-	require "contenu/contenu_fr.php"; 
-} else {
-	require "contenu/contenu_eng.php";
-}
-?>
-
 <!DOCTYPE html>
 <html>
 

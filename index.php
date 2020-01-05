@@ -1,17 +1,18 @@
 <?php 
-if (!$_GET["lang"]) {
+if (!isset($_GET["lang"])) {
 	$lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
 	if ($lang != 'fr')
 	    $lang = 'eng';
 	header("Location: index.php?lang=$lang");
 }
 
-require 'base_php/debut_base.php'; 
 if ($_GET["lang"] === "fr") {
-	require "contenu/contenu_fr.php"; 
+	require_once "contenu/contenu_fr.php"; 
 } else {
-	require "contenu/contenu_eng.php";
+	require_once "contenu/contenu_eng.php";
 }
+
+require 'base_php/debut_base.php'; 
 ?>
 
 <div id="main">

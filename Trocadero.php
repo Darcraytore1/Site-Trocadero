@@ -1,10 +1,11 @@
 <?php 
-require 'base_php/debut_base.php';
 if ($_GET["lang"] === "fr") {
-	require "contenu/contenu_fr.php"; 
+	require_once "contenu/contenu_fr.php"; 
 } else {
-	require "contenu/contenu_eng.php";
+	require_once "contenu/contenu_eng.php";
 }
+
+require 'base_php/debut_base.php';
 ?>
 
 <div id="main">
