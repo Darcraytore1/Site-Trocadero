@@ -5,7 +5,7 @@
 
 <head>
 	<title>Home</title>
-	<link rel="stylesheet" type="text/css" href="../CSS.css">
+	<link rel="stylesheet" type="text/css" href="CSS.css">
 	<meta charset="utf-8">
 </head>
 <body>
@@ -14,10 +14,10 @@
 
 			<p class="flotte">
 				<a href="index.php">
-					<img src="../image/french_flag.png">
+					<img src="image/french_flag.png">
 				</a>
 				<a href="Accueil_eng.php">
-					<img src="../image/english_flag.png">
+					<img src="image/english_flag.png">
 				</a>
 			</p>
 

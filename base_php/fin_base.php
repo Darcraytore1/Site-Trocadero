@@ -9,11 +9,11 @@
 
 	<div class="footer">
 		<div> 
-			<img src="../image/unesco.png"> 
+			<img src="image/unesco.png"> 
 		</div>
 
 	    <div> 
-	    	<img src="../image/upem.png"> 
+	    	<img src="image/upem.png"> 
 	   	</div>
 	   	
 	    <div>

@@ -19,7 +19,7 @@ if ($_GET["lang"] === "fr") {
 
 <head>
 	<title> <?php echo basename($_SERVER["SCRIPT_NAME"], ".php"); ?> </title>
-	<link rel="stylesheet" type="text/css" href="../CSS.css">
+	<link rel="stylesheet" type="text/css" href="CSS.css">
 	<meta charset="utf-8">
 </head>
 <body>
@@ -28,11 +28,11 @@ if ($_GET["lang"] === "fr") {
 
 			<p class="flotte">
 				<a href="<?php echo $_SERVER["PHP_SELF"]; ?>?lang=fr">
-					<img src="../image/french_flag.png">
+					<img src="image/french_flag.png">
 				</a>
 
 				<a href="<?php echo $_SERVER["PHP_SELF"]; ?>?lang=eng">
-					<img src="../image/english_flag.png">
+					<img src="image/english_flag.png">
 				</a>
 			</p>
 
