@@ -20,17 +20,22 @@ define("Titre_Accueil", "Bienvenue");
 define("Contenu_Accueil", <<<contenu_accueil
 	Ce site a pour but de vous proposer un rallye culturel autour de la place du
 	Trocadero.
-	<br/>
+	<br/><br/>
 	Pour ce faire sur la page rallye, il y a trois parcours en fonction du temps que
 	vous avez à consacré.
 	<br/>
-	Un parcours court(environ une heure), un parcour moyen d'environ 3h et un parcour long d'environ 5h.
-	<br/>
+	Un parcours court (environ une heure), un parcour moyen d'environ 3h et un parcour long d'environ 5h.
+	<br/><br/>
+	Le rallye se déroulera de la manière suivante :<br/>
+	Peu importe la longueur du parcours sélectionné vous aurez une carte avec un point de départ se situant très proche de la place du Trocadéro. <br/>
+	Ensuite, le point sur la carte changera d'emplacement en fonction de vos déplacement afin de vous indiquer le prochain lieu à atteindre.<br/>
+	Lorsque vous etes sur le point, vous disposerez d'informations à ce sujet ainsi qu'une question en lien avec ces informations. 
+	<br/><br/>
+	Ce site a été crée par un groupe d'étudiant venant de l'IUT de Marne la vallée de la filière Informatique.
+	<br/><br/>
 	Sur la page Le Trocadero vous pouvez obtenir des informations supplémentaires sur
 	certains monuments que vous verrez pendant le rallye.
-	<br/>
-	Ce site a été crée par un groupe d'étudiant venant de l'IUT de Marne la vallée de la filière Informatique.
-	<br/>
+	<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 contenu_accueil
 );
 
