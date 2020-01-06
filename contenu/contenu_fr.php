@@ -24,9 +24,9 @@ define("Contenu_Accueil", <<<contenu_accueil
 	Pour ce faire sur la page rallye, il y a trois parcours en fonction du temps que
 	vous avez à consacré.
 	<br/>
-	1 parcour cour d'environ 1h, un parcour moyen d'environ 3h et un parcour long d'environ 5h.
+	Un parcours court(environ une heure), un parcour moyen d'environ 3h et un parcour long d'environ 5h.
 	<br/>
-	Sur la page Le Trocadero vous pouvez obtenir des informations supplémentaires sur 
+	Sur la page Le Trocadero vous pouvez obtenir des informations supplémentaires sur
 	certains monuments que vous verrez pendant le rallye.
 	<br/>
 	Ce site a été crée par un groupe d'étudiant venant de l'IUT de Marne la vallée de la filière Informatique.
@@ -107,4 +107,3 @@ contenu_rallye
 );
 
 ?>
-
