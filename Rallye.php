@@ -1,10 +1,7 @@
 <?php require 'base_php/debut_base.php'; ?>
 
 <div id="main">
-	<p>
-		<?php echo Contenu_Rallye; ?> 
-	</p>
-
+	
 	<div id="map">Chargement ...</div>
 </div>
 

@@ -246,3 +246,10 @@ a:hover {
 	margin-height: 0px; 
 	margin-width: 0px;
 }
+
+.contenu-image
+{
+	display: flex;
+	justify-content: space-around;
+}
+

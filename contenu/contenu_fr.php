@@ -104,12 +104,13 @@ define("Contenu_Tour_Eiffel", <<<contenu_tour_eiffel
 contenu_tour_eiffel
 );
 
-// Rallye.php
+// Champ_de_Mars.php
 
-define("Contenu_Rallye", <<<contenu_rallye
+define("Contenu_Champs_de_Mars", <<<contenu_champs_de_mars
 	TEST (fr)
 <br/>
-contenu_rallye
+contenu_champs_de_mars
 );
+
 
 ?>
