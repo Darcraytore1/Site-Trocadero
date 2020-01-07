@@ -80,7 +80,7 @@ define("Contenu_Jardins_du_Trocadero", "...");
 
 // Place_du_Trocadero.php
 
-define("titre_place_trocadero", "Place du Trocadéro");
+define("titre_place_trocadero", "Trocadero Place");
 define("Contenu_Place_du_Trocadero", <<<contenu_place_du_trocadero
 	
 <br/>
