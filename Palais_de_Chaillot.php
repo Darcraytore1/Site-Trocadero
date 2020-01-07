@@ -2,7 +2,7 @@
 <div id="main">
 	<div class="contenu-image">
 		<div class="image">
-			<img src="image/">
+			<img src="image/palais_de_chaillot.png">
 		</div>
 
 		<div class="texte-image">

@@ -2,7 +2,7 @@
 <div id="main">
 	<div class="contenu-image">
 		<div class="image">
-			<img src="image/">
+			<img src="image/champ_de_mars.png">
 		</div>
 
 		<div class="texte-image">
