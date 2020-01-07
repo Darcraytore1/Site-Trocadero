@@ -30,9 +30,9 @@ if ($_GET["lang"] === "fr") {
 			</div>
 			
 			<div id="titre">
-				<p class="titre-principal">
+				<h1 class="titre-principal">
 					<?php echo Titre_page; ?> 
-				</p>
+				</h1>
 			</div>
 
 			<div id="flotte">
@@ -55,25 +55,33 @@ if ($_GET["lang"] === "fr") {
 		<div id="boutons">
 			<div class="bouton <?php if ($_SERVER["SCRIPT_NAME"] === "/index.php") { ?>active<?php } ?>">
 				<a href="index.php?lang=<?php echo $_GET["lang"] ?>"> 
-					<?php echo Accueil; ?> 
+					<h2>
+						<?php echo Accueil; ?> 
+					</h2>
 				</a>
 			</div>
 
 			<div class="bouton <?php if ($_SERVER["SCRIPT_NAME"] === "/Rallye.php") { ?>active<?php } ?>">
 				<a href="Rallye.php?lang=<?php echo $_GET["lang"] ?>"> 
-					<?php echo Rallye; ?> 
+					<h2>
+						<?php echo Rallye; ?> 
+					</h2>
 				</a>
 			</div>
 
 			<div class="bouton <?php if ($_SERVER["SCRIPT_NAME"] === "/Trocadero.php") { ?>active<?php } ?>">
 				<a href="Trocadero.php?lang=<?php echo $_GET["lang"] ?>"> 
-					<?php echo Trocadero; ?> 
+					<h2>
+						<?php echo Trocadero; ?> 
+					<h2>
 				</a>	
 			</div>
 			
 			<div class="bouton <?php if ($_SERVER["SCRIPT_NAME"] === "/Contact.php") { ?>active<?php } ?>">
 				<a href="Contact.php?lang=<?php echo $_GET["lang"] ?>"> 
-					<?php echo Contact; ?> 
+					<h2>
+						<?php echo Contact; ?> 
+					<h2>
 				</a>
 			</div>
 		</div>

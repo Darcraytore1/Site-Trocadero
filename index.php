@@ -1,9 +1,9 @@
 <?php require 'base_php/debut_base.php'; ?>
 
 <div id="main">
-	<p class="gros">
+	<h3>
 		<?php echo Titre_Accueil; ?> 
-	</p>
+	</h3>
 	<hr class="trait-long">
 	<p>
 		<?php echo Contenu_Accueil; ?> 
