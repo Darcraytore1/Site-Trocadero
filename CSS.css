@@ -1,6 +1,6 @@
 body
 {
-	background-color: #2d2d2d;
+	background-color: #333333;
 }
 
 p, h1, h2
@@ -141,13 +141,13 @@ a:hover {
 
 #boutons .bouton
 {
-	background-color: #4c4c4c;
+	background-color: #505050;
 	width: 18%;
 }
 
 #boutons .active
 {
-	background-color: #f34c29;
+	background-color: #ea5c0d;
 }
 
 #map
