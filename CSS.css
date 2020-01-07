@@ -60,7 +60,7 @@ a:hover {
 .titre-principal
 {
 	font-size: 60px;
-	margin-left: 20%;
+	margin-left: 15%;
 }
 
 .titre
@@ -187,3 +187,21 @@ a:hover {
 	justify-content: space-between;
 }
 
+@font-face {
+	font-family: "Dyno";
+	src: url("police/Dyno_Regular.ttf");
+}
+@font-face {
+	font-family: "Dyno";
+	font-style: italic;
+	src: url("police/Dyno_Regular.ttf");
+}
+@font-face {
+	font-family: "Dyno";
+	font-weight: bold;
+	src: url("police/Dyno_Regular.ttf");
+}
+
+body {
+	font-family: "Dyno", Helvetica, Arial, sans-serif;
+}

@@ -31,9 +31,7 @@ if ($_GET["lang"] === "fr") {
 			
 			<div id="titre">
 				<p class="titre-principal">
-					<FONT face="police/Dyno_Regular.ttf">
-						<?php echo Titre_page; ?> 
-					</FONT>
+					<?php echo Titre_page; ?> 
 				</p>
 			</div>
 
