@@ -4,7 +4,7 @@ define("langue", "Language");
 
 // debut_base.php
 
-define("Titre_page", "Cultural Rally of the Trocadero");
+define("Titre_page", "The Trocadero Cultural Rally");
 define("Accueil", "Home");
 define("Rallye", "Rally");
 define("Trocadero", "Trocadero");
