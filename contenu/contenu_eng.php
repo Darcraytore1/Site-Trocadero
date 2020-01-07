@@ -76,12 +76,7 @@ contenu_contact
 // Jardins_du_Trocadero.php
 
 define("titre_jardins_trocadero", "Trocadero Gardens");
-define("Contenu_Jardins_du_Trocadero", <<<contenu_jardins_du_trocadero
-
-<br/>
-
-contenu_jardins_du_trocadero
-);
+define("Contenu_Jardins_du_Trocadero", "...");
 
 // Place_du_Trocadero.php
 
@@ -113,11 +108,7 @@ contenu_place_du_trocadero
 // Palais_de_Chaillot.php
 
 define("titre_palais_chaillot", "Chaillot Palace");
-define("Contenu_Palais_de_Chaillot", <<<contenu_palais_de_chaillot
-	
-<br/>
-contenu_palais_de_chaillot
-);
+define("Contenu_Palais_de_Chaillot", "...");
 
 // Tour_Eiffel.php
 

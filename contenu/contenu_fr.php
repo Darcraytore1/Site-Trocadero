@@ -75,11 +75,7 @@ contenu_contact
 // Jardins_du_Trocadero.php
 
 define("titre_jardins_trocadero", "Jardins du Trocadéro");
-define("Contenu_Jardins_du_Trocadero", <<<contenu_jardins_du_trocadero
-
-<br/>
-contenu_jardins_du_trocadero
-);
+define("Contenu_Jardins_du_Trocadero", "...");
 
 // Place_du_Trocadero.php
 
