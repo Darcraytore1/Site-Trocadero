@@ -5,7 +5,7 @@
 		<?php echo Contenu_Rallye; ?> 
 	</p>
 
-	<div id="map"></div>
+	<div id="map">Chargement ...</div>
 </div>
 
  

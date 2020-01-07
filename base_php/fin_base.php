@@ -1,3 +1,4 @@
+
 	<div class="footer">
 		<div> 
 			<img src="image/unesco.png"> 
@@ -15,6 +16,5 @@
 			</p>
 		</div>
 	</div>
-
 </body>
 </html>

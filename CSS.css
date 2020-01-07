@@ -232,3 +232,17 @@ a:hover {
 	justify-content: space-between;
 }
 
+#contact
+{
+	display: flex;
+	justify-content: space-around;
+}
+
+.google_form
+{
+	width: 640px;
+	height: 1300px;
+	border: 0px;
+	margin-height: 0px; 
+	margin-width: 0px;
+}
