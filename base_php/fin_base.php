@@ -1,11 +1,11 @@
 
 	<div class="footer">
 		<div> 
-			<img src="image/unesco.png"> 
+			<a href="https://en.unesco.org/"><img src="image/unesco.png"></a>
 		</div>
 
 	    <div> 
-	    	<img src="image/upem.png"> 
+	    	<a href="http://www.u-pem.fr/"><img src="image/upem.png"></a>
 	   	</div>
 	   	
 	    <div>
