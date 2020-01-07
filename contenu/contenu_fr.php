@@ -148,10 +148,6 @@ contenu_tour_eiffel
 // Champ_de_Mars.php
 
 define("titre_champ_de_mars", "Champ de Mars");
-define("Contenu_Champs_de_Mars", <<<contenu_champs_de_mars
-	TEST (fr)
-<br/>
-contenu_champs_de_mars
-);
+define("Contenu_Champs_de_Mars", "...");
 
 ?>
