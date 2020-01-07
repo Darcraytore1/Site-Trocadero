@@ -96,7 +96,7 @@ define("Contenu_Place_du_Trocadero", <<<contenu_place_du_trocadero
 <br/><br/>
 	Its diameter is 164 meters and in its center, a statue of Marshal Foch and 
 	a monument to the glory of the French army (both created by Paul Labdowski).
-<br/><br/>
+<br/><br/>hill
 	It's a beautiful place, where the wind often blows because it's 
 	very open, this wind can, however, annoy some people but allows us
 <br/>
@@ -108,7 +108,13 @@ contenu_place_du_trocadero
 // Palais_de_Chaillot.php
 
 define("titre_palais_chaillot", "Chaillot Palace");
-define("Contenu_Palais_de_Chaillot", "...");
+define("Contenu_Palais_de_Chaillot", <<<contenu_palais_de_chaillot
+
+<br/>
+The Chaillot Palace is located on the 'Chaillot' hill
+
+contenu_palais_de_chaillot
+);
 
 // Tour_Eiffel.php
 
