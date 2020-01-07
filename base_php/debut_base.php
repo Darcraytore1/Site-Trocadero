@@ -27,6 +27,9 @@ if ($_GET["lang"] === "fr") {
 		<div id = "entete">
 
 			<p class="flotte">
+				<?php echo langue ?>
+				<br>
+
 				<a href="<?php echo $_SERVER["PHP_SELF"]; ?>?lang=fr">
 					<img src="image/french_flag.png">
 				</a>
@@ -36,7 +39,7 @@ if ($_GET["lang"] === "fr") {
 				</a>
 			</p>
 
-			<p class="titre">
+			<p class="titre-principal">
 				<FONT face="Comic Sans ms">
 					<?php echo Titre_page; ?> 
 				</FONT>
