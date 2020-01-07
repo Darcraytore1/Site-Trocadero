@@ -255,12 +255,12 @@ a:hover {
 
 .contenu-image img 
 {
-	max-width: 75%;
+	max-width: 100%;
 }
 
 .texte-image
 {
-	min-width: 30%;
+	min-width: 45%;
 	padding: 15px;
 }
 

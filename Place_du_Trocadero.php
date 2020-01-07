@@ -2,7 +2,7 @@
 <div id="main">
 	<div class="contenu-image">
 		<div class="image">
-			<img src="image/">
+			<img src="image/place_du_trocadero.png">
 		</div>
 
 		<div class="texte-image">
