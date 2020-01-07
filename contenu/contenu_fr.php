@@ -37,7 +37,6 @@ define("Contenu_Accueil", <<<contenu_accueil
 	<br/><br/>
 	Sur la page Le Trocadero vous pouvez obtenir des informations supplémentaires sur
 	certains monuments que vous verrez pendant le rallye.
-	<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 contenu_accueil
 );
 

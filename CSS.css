@@ -3,9 +3,20 @@ body
 	background-color: #2d2d2d;
 }
 
-p
+p, h1, h2
 {
 	color: white;
+}
+
+h1 
+{
+	font-size: 45px;
+	padding-left: 3%;
+}
+
+h2
+{
+	font-size: 30px;
 }
 
 a:link {
@@ -48,8 +59,8 @@ a:hover {
 
 .titre-principal
 {
-	font-size: 45px;
-	margin-left: 30%;
+	font-size: 60px;
+	margin-left: 20%;
 }
 
 .titre
@@ -115,7 +126,8 @@ a:hover {
 	color: white;
 	display: flex;
     justify-content: space-around;
-    font-size: 20px;
+    font-size: 16px;
+    margin-top: 3%;
 }
 
 #boutons
@@ -124,6 +136,7 @@ a:hover {
 	text-align: center;
 	display: flex;
     justify-content: space-around;
+    margin-bottom: 3%;
 }
 
 #boutons .bouton
@@ -149,7 +162,7 @@ a:hover {
 {
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 }
 
 #logo

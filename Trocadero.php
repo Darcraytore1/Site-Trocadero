@@ -3,39 +3,39 @@
 <div id="main">
 
 
-	<p class="gros">
+	<h1>
 		<?php echo Titre_Rallye; ?> 
-	</p>
+	</h1>
 	<hr class="trait-long">
 
 
-	<p class="gros">
+	<h2>
 		<a href="Place_du_Trocadero.php?lang=<?php echo $_GET["lang"] ?>"> <?php echo Place_du_Trocadéro; ?> </a>
-	</p>
+	</h2>
 	<hr class="trait-court">
 
 
-	<p class="gros">
+	<h2>
 		<a href="Tour_Eiffel.php?lang=<?php echo $_GET["lang"] ?>"> <?php echo Tour_Eiffel; ?> </a>
-	</p>
+	</h2>
 	<hr class="trait-court">
 
 
-	<p class="gros">
+	<h2>
 		<a href="Palais_de_Chaillot.php?lang=<?php echo $_GET["lang"] ?>"> <?php echo Palais_de_Chaillot; ?> </a>
-	</p>
+	</h2>
 	<hr class="trait-court">
 
 
-	<p class="gros">
+	<h2>
 		<a href="Jardins_du_Trocadero.php?lang=<?php echo $_GET["lang"] ?>"> <?php echo Jardins_du_Trocadéro; ?> </a>
-	</p>
+	</h2>
 	<hr class="trait-court">
 
 
-	<p class="gros">
+	<h2>
 		<a href="Champ_de_Mars.php?lang=<?php echo $_GET["lang"] ?>"> <?php echo Champ_de_Mars; ?> </a>
-	</p>
+	</h2>
 	<hr class="trait-court">
 
 
