@@ -7,7 +7,7 @@ define("langue", "Langue");
 define("Titre_page", "Rallye culturelle du trocadéro");
 define("Accueil", "Accueil");
 define("Rallye", "Rallye");
-define("Trocadero", "Le Trocadero");
+define("Trocadero", "Trocadero");
 define("Contact", "Contact");
 
 
