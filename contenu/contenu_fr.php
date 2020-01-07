@@ -60,22 +60,22 @@ define("Contenu_Contact", <<<contenu_contact
 <br/>
 	DELPORTE Logan : Design
 <br/>
-	DOS SANTOS Sebastien : Codage
+	DOS SANTOS Sebastien : Codeur
 <br/>
-	DELMAS Jean : Communiquant
+	DELMAS Jean : Communication
 <br/>
-	ALBISSON Damien : Codage
+	ALBISSON Damien : Codeur
 <br/>
-	Adresse Email: damienalbisson@gmail.com
+	Adresse Email: jdelmas@etud.u-pem.fr
 <br/>
-	Telephone : ...
+	Telephone : +33 6 12345678
 contenu_contact
 );
 
 // Jardins_du_Trocadero.php
 
 define("Contenu_Jardins_du_Trocadero", <<<contenu_jardins_du_trocadero
-	TEST (fr)
+	En Développement ...
 <br/>
 contenu_jardins_du_trocadero
 );
@@ -83,7 +83,7 @@ contenu_jardins_du_trocadero
 // Place_du_Trocadero.php
 
 define("Contenu_Place_du_Trocadero", <<<contenu_place_du_trocadero
-	TEST (fr)
+	En Développement ...
 <br/>
 contenu_place_du_trocadero
 );
@@ -91,7 +91,7 @@ contenu_place_du_trocadero
 // Palais_de_Chaillot.php
 
 define("Contenu_Palais_de_Chaillot", <<<contenu_palais_de_chaillot
-	TEST (fr)
+	En Développement ...
 <br/>
 contenu_palais_de_chaillot
 );
@@ -99,7 +99,7 @@ contenu_palais_de_chaillot
 // Tour_Eiffel.php
 
 define("Contenu_Tour_Eiffel", <<<contenu_tour_eiffel
-	TEST (fr)
+	En Développement ...
 <br/>
 contenu_tour_eiffel
 );
@@ -107,7 +107,7 @@ contenu_tour_eiffel
 // Champ_de_Mars.php
 
 define("Contenu_Champs_de_Mars", <<<contenu_champs_de_mars
-	TEST (fr)
+	En Développement ...
 <br/>
 contenu_champs_de_mars
 );

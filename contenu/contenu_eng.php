@@ -28,9 +28,15 @@ define("Contenu_Accueil", <<<contenu_accueil
 	<br/>
 	Easy route, you will need about 1 houre, Medium route, about 3 houres and Long route, about 5 houres.
 	<br/>
-	Under the 'Trocadero' tab, you will find additional informations about specific monuments previously seen in game.
 	<br/>
+	The game will be played as follows :<br/>
+	As soon as you selected the route that fits you the best, a starting point near the Trocadero Area will be given to you. <br/>
+	After you reach that point and learned about the monument you are seeing, another place will be shown to you.<br/>
+	Each stop gives you informations about what you can observe, you will also need to awnser a question before receiving the next point. 
+	<br/><br/>
 	This website has been made by a group of Marne La Vallée's IUT students.
+	<br/>
+	Under the 'Trocadero' tab, you will find additional informations about specific monuments previously seen in game.
 	<br/>
 contenu_accueil
 );
@@ -61,7 +67,7 @@ define("Contenu_Contact", <<<contenu_contact
 <br/>
 	ALBISSON Damien : Developer
 <br/>
-	Email Address: damienalbisson@gmail.com
+	Email Address: jdelmas@etud.u-pem.fr
 <br/>
 	Phone Number : +33 6 12345678
 contenu_contact
@@ -70,7 +76,7 @@ contenu_contact
 // Jardins_du_Trocadero.php
 
 define("Contenu_Jardins_du_Trocadero", <<<contenu_jardins_du_trocadero
-	TEST (en)
+	Work In-Progress ...
 <br/>
 contenu_jardins_du_trocadero
 );
@@ -78,7 +84,7 @@ contenu_jardins_du_trocadero
 // Place_du_Trocadero.php
 
 define("Contenu_Place_du_Trocadero", <<<contenu_place_du_trocadero
-	TEST (en)
+	Work In-Progress ...
 <br/>
 contenu_place_du_trocadero
 );
@@ -86,7 +92,7 @@ contenu_place_du_trocadero
 // Palais_de_Chaillot.php
 
 define("Contenu_Palais_de_Chaillot", <<<contenu_palais_de_chaillot
-	TEST (en)
+	Work In-Progress ...
 <br/>
 contenu_palais_de_chaillot
 );
@@ -94,7 +100,7 @@ contenu_palais_de_chaillot
 // Tour_Eiffel.php
 
 define("Contenu_Tour_Eiffel", <<<contenu_tour_eiffel
-	TEST (en)
+	Work In-Progress ...
 <br/>
 contenu_tour_eiffel
 );
@@ -102,7 +108,7 @@ contenu_tour_eiffel
 // Champ_de_Mars.php
 
 define("Contenu_Champs_de_Mars", <<<contenu_champs_de_mars
-	TEST (en)
+	Work In-Progress ...
 <br/>
 contenu_champs_de_mars
 );
