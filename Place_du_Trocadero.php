@@ -5,7 +5,10 @@
 			<img src="image/jardin-du-trocadéro.png">
 		</div>
 
-		<div>
+		<div class="texte-image">
+			<h2>
+				<?php echo titre_place_trocadero; ?>
+			</h2>
 			<p>
 				<?php echo Contenu_Place_du_Trocadero; ?> 
 			</p>

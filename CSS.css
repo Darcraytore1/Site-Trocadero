@@ -253,3 +253,12 @@ a:hover {
 	justify-content: space-around;
 }
 
+.contenu-image img 
+{
+	max-width: 75%;
+}
+
+.texte-image
+{
+	min-width: 30%;
+}

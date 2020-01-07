@@ -74,6 +74,7 @@ contenu_contact
 
 // Jardins_du_Trocadero.php
 
+define("titre_jardins_trocadero", "Jardins du Trocadéro");
 define("Contenu_Jardins_du_Trocadero", <<<contenu_jardins_du_trocadero
 	TEST (fr)
 <br/>
@@ -82,6 +83,7 @@ contenu_jardins_du_trocadero
 
 // Place_du_Trocadero.php
 
+define("titre_place_trocadero", "Place du Trocadéro");
 define("Contenu_Place_du_Trocadero", <<<contenu_place_du_trocadero
 	TEST (fr)
 <br/>
@@ -90,6 +92,7 @@ contenu_place_du_trocadero
 
 // Palais_de_Chaillot.php
 
+define("titre_palais_chaillot", "Palais de Chaillot");
 define("Contenu_Palais_de_Chaillot", <<<contenu_palais_de_chaillot
 	TEST (fr)
 <br/>
@@ -98,6 +101,7 @@ contenu_palais_de_chaillot
 
 // Tour_Eiffel.php
 
+define("titre_tour_eiffel", "Tour Eiffel");
 define("Contenu_Tour_Eiffel", <<<contenu_tour_eiffel
 	TEST (fr)
 <br/>
@@ -106,6 +110,7 @@ contenu_tour_eiffel
 
 // Champ_de_Mars.php
 
+define("titre_champ_de_mars", "Champ de Mars");
 define("Contenu_Champs_de_Mars", <<<contenu_champs_de_mars
 	TEST (fr)
 <br/>
