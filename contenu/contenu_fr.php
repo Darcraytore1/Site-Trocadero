@@ -56,19 +56,19 @@ define("Champ_de_Mars", "Champ de Mars");
 // Contact.php
 
 define("Contenu_Contact", <<<contenu_contact
-	HOUCINE Thomas : Chef
+	HOUCINE Thomas : Chef de Projet
 <br/>
 	DELPORTE Logan : Design
 <br/>
-	DOS SANTOS Sebastien : Codage
+	DOS SANTOS Sebastien : Code
 <br/>
-	DELMAS Jean : Communiquant
+	DELMAS Jean : Communication
 <br/>
-	ALBISSON Damien : Codage
+	ALBISSON Damien : Code
 <br/>
-	Adresse Email: damienalbisson@gmail.com
+	Adresse Email: jdelmas@etud.u-pem.fr
 <br/>
-	Telephone : ...
+	Telephone : +33 6 12345678
 contenu_contact
 );
 

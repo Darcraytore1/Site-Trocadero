@@ -26,11 +26,17 @@ define("Contenu_Accueil", <<<contenu_accueil
 	<br/>
 	Depending on the time you planned to play, you will chose one (or multiple) of the following routes...
 	<br/>
-	Easy route, you will need about 1 houre, Medium route, about 3 houres and Long route, about 5 houres.
+	Easy route, you will need about 1 hour, Medium route, about 3 hours and Long route, about 5 hours.
+	<br/>
+	<br/>
+	The game will be played as follows :<br/>
+	As soon as you selected the route that fits you the best, a starting point near the Trocadero Area will be given to you. <br/>
+	After you reach that point and learned about the monument you are seeing, another place will be shown to you.<br/>
+	Each stop gives you informations about what you can observe, you will also need to awnser a question before receiving the next point. 
+	<br/><br/>
+	This website has been made by a group of Marne La Vallée's IUT students.
 	<br/>
 	Under the 'Trocadero' tab, you will find additional informations about specific monuments previously seen in game.
-	<br/>
-	This website has been made by a group of Marne La Vallée's IUT students.
 	<br/>
 contenu_accueil
 );
@@ -61,7 +67,7 @@ define("Contenu_Contact", <<<contenu_contact
 <br/>
 	ALBISSON Damien : Developer
 <br/>
-	Email Address: damienalbisson@gmail.com
+	Email Address: jdelmas@etud.u-pem.fr
 <br/>
 	Phone Number : +33 6 12345678
 contenu_contact
@@ -81,22 +87,23 @@ contenu_jardins_du_trocadero
 define("Contenu_Place_du_Trocadero", <<<contenu_place_du_trocadero
 	
 <br/>
-Its full name is in fact: Place du Trocadéro-et-du-11-Novembre.
-This place is located in the 11th district of Paris.
+	Its full name is in fact: Place du Trocadéro-et-du-11-Novembre.
+	This place is located in the 11th district of Paris.
 <br/><br/>
-Its name was given in remembrance of the battle that took place on August 31, 1823, during which 
-a French expeditionary force <br/>took the Trocadero fort from the hands of the Spanish liberal revolutionaries,
-which defended the port of Cádiz in Spain and restored the authority of Monarch Ferdinand VII.
+	Its name was given in remembrance of the battle that took place on August 31, 1823, during which 
+	a French expeditionary force took the Trocadero fort from the hands of the Spanish liberal revolutionaries,
+	which defended the port of Cádiz in Spain and restored the authority of Monarch Ferdinand VII.
 <br/><br/>
-November 11th in the name of this place corresponds to the armistice of November 11th 1918 that 
-marks the end of the fighting in World War I.
+	November 11th mention, corresponds to the armistice of November 11th 1918 that 
+	marked the end of fighting in World War I.
 <br/><br/>
-Its diameter is 164 meters, in its center is an equestrian statue of Marshal Foch and 
-that of a monument to the glory of the French army (both created by Paul Labdowski).
+	Its diameter is 164 meters and in its center, a statue of Marshal Foch and 
+	a monument to the glory of the French army (both created by Paul Labdowski).
 <br/><br/>
-It's a beautiful place, where the wind often blows because it's 
-very open, this wind can annoy some people but it allows us however
-<br/> to have a magnificent view over the whole garden of the trocadero as well as over the Eiffel Tower.
+	It's a beautiful place, where the wind often blows because it's 
+	very open, this wind can, however, annoy some people but allows us
+<br/>
+	to have a magnificent view over the whole garden of the trocadero as well as over the Eiffel Tower.
 
 contenu_place_du_trocadero
 );
@@ -114,22 +121,24 @@ contenu_palais_de_chaillot
 define("Contenu_Tour_Eiffel", <<<contenu_tour_eiffel
 	
 <br/>
-The Eiffel Tower is a puddled iron tower (refined cast iron) 324 meters high (with its antenna).
+	The Eiffel Tower is a 324 meters high (with its antenna) puddled iron tower (refined cast iron).
 <br/><br/>
-It is obviously located in Paris, in the 7th arrondissement, built by Gustave Eiffel and his
-collaborators for the 1889 Paris Universal Exhibition. 
+	It is located in the 7th district (or 'arrondissement') of Paris and was built by Gustave Eiffel and his
+	collaborators for the 1889 Paris Universal Exhibition. 
 <br/>
-Originally called the "300-metre tower", it has now become the symbol of the French capital.
+	Originally called the "300-metre tower", it has now become the symbol of the French capital.
 <br/><br/>
-It is also a big tourist site, it is the third most visited French cultural site, and
-the most visited paying monument in the world with more than 300 million visitors
+	It is also a big tourist site, it is the third most visited French cultural site, and
+	the most visited paying monument in the world with more than 300 million visitors !
 <br/><br/>
-At a height of 312 meters, the Eiffel Tower remained the highest monument in the world for forty years.
+	At a height of 312 meters, the Eiffel Tower remained the highest monument in the world for forty years. 
+<br/>
+(It is true that to todays standards it's not that impressive...)
 <br/><br/>
-This Tower, although known as the symbol of our capital, is not unique in the world. 
-indeed in Japan is the Tokyo Tower.<br/>
-This one is almost identical to the one we know, but there is a difference: 
-its color is red and white.
+	This Tower, although known as the symbol of our capital, is not unique in the world. 
+	In Japan, the Tokyo Tower closely resembles it...<br/>
+	One major difference: 
+	The red and white coloring
 
 contenu_tour_eiffel
 );
