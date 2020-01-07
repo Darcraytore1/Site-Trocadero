@@ -81,6 +81,11 @@ a:hover {
 	text-decoration: underline;
 }
 
+.active a:visited
+{
+	color: #222222;
+}
+
 .active h2
 {
 	color: #222222;
