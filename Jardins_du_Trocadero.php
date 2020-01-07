@@ -11,7 +11,7 @@
 			</p>
 		</div>
 
-		<div>
+		<div class="image">
 			<img src="image/jardin-du-trocadéro.png">
 		</div>
 	</div>

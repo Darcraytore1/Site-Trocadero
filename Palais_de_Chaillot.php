@@ -1,7 +1,7 @@
 <?php require 'base_php/debut_base.php'; ?>
 <div id="main">
 	<div class="contenu-image">
-		<div>
+		<div class="image">
 			<img src="image/">
 		</div>
 

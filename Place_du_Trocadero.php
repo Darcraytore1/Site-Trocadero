@@ -1,8 +1,8 @@
 <?php require 'base_php/debut_base.php'; ?>
 <div id="main">
 	<div class="contenu-image">
-		<div>
-			<img src="image/jardin-du-trocadéro.png">
+		<div class="image">
+			<img src="image/">
 		</div>
 
 		<div class="texte-image">

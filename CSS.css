@@ -262,3 +262,9 @@ a:hover {
 {
 	min-width: 30%;
 }
+
+.image
+{
+	text-align: center;
+	display: block;
+}

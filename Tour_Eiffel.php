@@ -10,7 +10,7 @@
 			</p>
 		</div>
 
-		<div>
+		<div class="image">
 			<img src="image/tour-eiffel.png">
 		</div>
 	</div>
