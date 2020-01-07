@@ -69,7 +69,13 @@ if ($_GET["lang"] === "fr") {
 				</a>
 			</div>
 
-			<div class="bouton <?php if ($_SERVER["SCRIPT_NAME"] === "/Trocadero.php") { ?>active<?php } ?>">
+			<div class="bouton <?php if (in_array($_SERVER["SCRIPT_NAME"], array(
+																			"/Trocadero.php",
+																			"/Champ_de_Mars.php",
+																			"/Jardins_du_Trocadero.php",
+																			"/Palais_de_Chaillot.php",
+																			"/Place_du_Trocadero.php",
+																			"/Tour_Eiffel.php"))) { ?>active<?php } ?>">
 				<a href="Trocadero.php?lang=<?php echo $_GET["lang"] ?>"> 
 					<h2>
 						<?php echo Trocadero; ?> 

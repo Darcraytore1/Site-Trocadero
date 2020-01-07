@@ -24,6 +24,7 @@
 
 body {
 	background-color: #333333;
+	font-size: 100%;
 }
 
 p, h1, h2, h3, h4, h5, h6
@@ -43,19 +44,19 @@ p
 
 h1 
 {
-	font-size: 50px;
+	font-size: 3.5em;
 	padding-left: 3%;
 }
 
 h2
 {
-	font-size: 40px;
+	font-size: 2.5em;
 	padding-left: 3%;
 }
 
 h3
 {
-	font-size: 30px;
+	font-size: 2em;
 }
 
 a:link {
@@ -94,7 +95,7 @@ a:hover {
 
 .gros
 {
-	font-size: 30px;
+	font-size: 2em;
 }
 
 .flotte {
@@ -103,13 +104,13 @@ a:hover {
 
 .titre-principal
 {
-	font-size: 60px;
+	font-size: 4em;
 	margin-left: 10%;
 }
 
 .titre
 {
-	font-size: 45px;
+	font-size: 3.25em;
 	text-align: center;
 }
 
