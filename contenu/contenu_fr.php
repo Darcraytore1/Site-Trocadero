@@ -60,22 +60,22 @@ define("Contenu_Contact", <<<contenu_contact
 <br/>
 	DELPORTE Logan : Design
 <br/>
-	DOS SANTOS Sebastien : Codeur
+	DOS SANTOS Sebastien : Codage
 <br/>
-	DELMAS Jean : Communication
+	DELMAS Jean : Communiquant
 <br/>
-	ALBISSON Damien : Codeur
+	ALBISSON Damien : Codage
 <br/>
-	Adresse Email: jdelmas@etud.u-pem.fr
+	Adresse Email: damienalbisson@gmail.com
 <br/>
-	Telephone : +33 6 12345678
+	Telephone : ...
 contenu_contact
 );
 
 // Jardins_du_Trocadero.php
 
 define("Contenu_Jardins_du_Trocadero", <<<contenu_jardins_du_trocadero
-	En Développement ...
+
 <br/>
 contenu_jardins_du_trocadero
 );
@@ -83,34 +83,70 @@ contenu_jardins_du_trocadero
 // Place_du_Trocadero.php
 
 define("Contenu_Place_du_Trocadero", <<<contenu_place_du_trocadero
-	En Développement ...
+
 <br/>
+Son nom complet est enfaite: La place du Trocadéro-et-du-11-Novembre.
+Cette place se situe dans le 11ème arrondissement de Paris.
+<br/><br/>
+Son nom à été donné en souvenir de la bataille qui s'est déroulée le 31 août 1823, pendant laquelle 
+un corps expéditionnaire français <br/>enleva aux mains des révolutionnaires libéraux espagnols le fort du Trocadéro,
+qui défendait le port de Cadix en Espagne, et rétablit l'autorité du monarque Ferdinand VII.
+<br/><br/>
+Le 11 novembre dans le nom de cette place correspond à armistice du 11 novembre 1918 qui 
+marque la fin des combats de la Première Guerre mondiale.
+<br/><br/>
+Son diamètre est de 164 mètres, en son centre se trouve une statue équestre du maréchal Foch et 
+celle d'un monument à la gloire de l'armée française (crée toute les deux par Paul Labdowski).
+<br/><br/>
+C'est une belle place, ou souffle souvent du vent cela vient du fait qu'elle est 
+très ouverte, ce vent peut embêter quelques personnes mais ils nous permet cependant
+<br/> d'avoir une magnifique vue sur tout le jardin du trocadéro ainsi que bien sur la Tour Eiffel.
+
 contenu_place_du_trocadero
 );
 
 // Palais_de_Chaillot.php
 
 define("Contenu_Palais_de_Chaillot", <<<contenu_palais_de_chaillot
-	En Développement ...
+
 <br/>
+Le palais de Chaillot est situé sur la colline de Chaillot à Paris
+
 contenu_palais_de_chaillot
 );
 
 // Tour_Eiffel.php
 
 define("Contenu_Tour_Eiffel", <<<contenu_tour_eiffel
-	En Développement ...
+	
 <br/>
+La Tour Eiffel est une tour de fer puddlé (fonte affiné) de 324 mètres de hauteurs (avec son antenne).
+<br/><br/>
+Elle se situe bien evidemment à Paris, dans le 7ème arrondissement, construite par Gustave Eiffel et ses
+collaborateurs pour au départ l'exposition universelle de Paris de 1889. 
+
+<br/>
+Elle était au départ nommée "tour de 300 mètres", elle est aujourd'hui devenue le symbole de la capital française.
+<br/><br/>
+Elle est également un gros site touristique, c'est le troisième site culturelle français le plus visité, et
+le monument payant le plus visité au monde avec plus de 300 millions de visiteurs
+<br/><br/>
+D'une hauteur de 312 mètres, la Tour Eiffel est resté le monument le plus élevée au monde durant quarante ans.
+<br/><br/>
+Cette Tour pourtant connu comme le symbole de notre capital n'est pas unique au monde 
+en effet au Japon se trouve la Tour de Tokyo.<br/>
+Celle-ci est quasiment identique à celle que nous connaissons mais elle possède cependant une différence: 
+sa couleur est rouge et blanche.
+
 contenu_tour_eiffel
 );
 
-// Champ_de_Mars.php
+// Rallye.php
 
-define("Contenu_Champs_de_Mars", <<<contenu_champs_de_mars
-	En Développement ...
+define("Contenu_Rallye", <<<contenu_rallye
+
 <br/>
-contenu_champs_de_mars
+contenu_rallye
 );
-
 
 ?>
