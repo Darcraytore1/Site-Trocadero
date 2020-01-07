@@ -4,7 +4,7 @@
 	<p class="gros">
 		<?php echo Titre_Accueil; ?> 
 	</p>
-	<hr width="50%" color="red" align="left">
+	<hr class="trait-long">
 	<p>
 		<?php echo Contenu_Accueil; ?> 
 	</p>

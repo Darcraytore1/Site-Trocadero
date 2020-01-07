@@ -50,7 +50,6 @@ a:hover {
 {
 	font-size: 45px;
 	margin-left: 30%;
-
 }
 
 .titre
@@ -59,14 +58,33 @@ a:hover {
 	text-align: center;
 }
 
+.trait-court, .trait-long
+{
+	display: inline-block;
+	text-align: left;
+}
+
+.trait-court
+{
+	width: 25%;
+	color: #f7af3e; 
+}
+
+.trait-long
+{
+	width: 50%;
+	color:  #ea5c0d;
+}
+
+
 #entete, #menu, #contenu, #footer{
 	padding: 1px 0;
 }
 
-#entete{
+/*#entete{
 	text-align: center;
 	background: url(image/logo.png) top left no-repeat;
-}
+}*/
 
 #main{
 	max-width: 1900px;
@@ -103,6 +121,7 @@ a:hover {
 #boutons
 {
 	font-size: 40px;
+	text-align: center;
 	display: flex;
     justify-content: space-around;
 }
@@ -126,4 +145,32 @@ a:hover {
 	margin-bottom: 15px;
 }
 
+#entete 
+{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 15px;
+}
+
+#logo
+{
+	margin: 15px;
+}
+
+#titre 
+{
+	width: 100%;
+}
+
+#flotte
+{
+	text-align: center;
+	width: 8%;
+}
+
+#flotte div
+{
+	display: flex;
+	justify-content: space-between;
+}
 
