@@ -2,7 +2,9 @@
 
 <div id="main">
 	
-	<div id="map">Chargement ...</div>
+	<div id="map">
+		<h1>Chargement ...</h1>
+	</div>
 </div>
 
  

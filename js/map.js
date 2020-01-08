@@ -1,18 +1,24 @@
-function initMap(){
+
+function initMap(){	
+	var icone = {
+		url: 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+		scaledSize: new google.maps.Size(50, 50),
+
+	}
+
 	// liste de markers
 	var markers = [
 		{
 			coords: {lat: 48.862997,lng: 2.287142},
-			iconImage: 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
-			content:'<h1>Trocadéro</h1>'
+			icon: icone,
+			content:'<h2>Trocadéro</h2>'
 		},
 	];
-
 
 	// Options de la map
 	var options = {
 		zoom: 18,
-		center: markers[0].coords
+		center: markers[0].coords,
 	}
 
 	// Nouvelle map
@@ -38,9 +44,9 @@ function initMap(){
 		});
 
 		// Regarde si on a une icone perso
-		if(props.iconImage){
+		if(props.icon){
 			// Set icon image
-			marker.setIcon(props.iconImage);
+			marker.setIcon(props.icon);
 		}
 
 		// Regarde si on a du contenu 
