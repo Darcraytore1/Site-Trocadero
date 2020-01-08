@@ -4,7 +4,7 @@ function initMap(){
 		{
 			coords: {lat: 48.862997,lng: 2.287142},
 			iconImage: 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
-			content:' <h1>Trocadéro</h1>'
+			content:'<h1>Trocadéro</h1>'
 		},
 	];
 

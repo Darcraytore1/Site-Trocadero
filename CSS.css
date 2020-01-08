@@ -204,6 +204,11 @@ a:hover {
 	margin-bottom: 15px;
 }
 
+#map h1
+{
+	color: black;
+}
+
 #entete 
 {
 	display: flex;
