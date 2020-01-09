@@ -4,7 +4,7 @@ define("langue", "Langue");
 
 // debut_base.php
 
-define("Titre_page", "Rallye culturelle du trocadéro");
+define("Titre_page", "Rallye culturel du Trocadéro");
 define("Accueil", "Accueil");
 define("Rallye", "Rallye");
 define("Trocadero", "Trocadero");
@@ -21,7 +21,7 @@ define("Statistiques", "Statistiques");
 define("Titre_Accueil", "Bienvenue");
 define("Contenu_Accueil", <<<contenu_accueil
 	Ce site a pour but de vous proposer un rallye culturel autour de la place du
-	Trocadero.
+	Trocadéro.
 	<br/><br/>
 	Pour ce faire sur la page rallye, il y a trois parcours en fonction du temps que
 	vous avez à consacrer.
@@ -131,9 +131,9 @@ Elle était au départ nommée "tour de 300 mètres", elle est aujourd'hui deven
 Elle est également un gros site touristique, c'est le troisième site culturel français le plus visité, et
 le monument payant le plus visité au monde avec plus de 300 millions de visiteurs.
 <br/><br/>
-D'une hauteur de 312 mètres, la Tour Eiffel est resté le monument le plus élevée au monde durant quarante ans.
+D'une hauteur de 312 mètres, la Tour Eiffel est resté le monument le plus élevé au monde durant quarante ans.
 <br/><br/>
-Cette Tour pourtant connu comme le symbole de notre capitale n'est pas unique au monde :
+Cette Tour pourtant connue comme le symbole de notre capitale n'est pas unique au monde :
 en effet au Japon se trouve la Tour de Tokyo.<br/>
 Celle-ci est quasiment identique à celle que nous connaissons, mais elle possède cependant une différence : 
 sa couleur est rouge et blanche.
