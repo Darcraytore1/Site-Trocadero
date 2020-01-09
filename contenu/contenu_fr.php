@@ -24,18 +24,18 @@ define("Contenu_Accueil", <<<contenu_accueil
 	Trocadero.
 	<br/><br/>
 	Pour ce faire sur la page rallye, il y a trois parcours en fonction du temps que
-	vous avez à consacré.
+	vous avez à consacrer.
 	<br/>
 	Un parcours court (environ une heure), un parcour moyen d'environ 3h et un parcour long d'environ 5h.
 	<br/><br/>
 	Le rallye se déroulera de la manière suivante :<br/>
-	Peu importe la longueur du parcours sélectionné vous aurez une carte avec un point de départ se situant très proche de la place du Trocadéro. <br/>
-	Ensuite, le point sur la carte changera d'emplacement en fonction de vos déplacement afin de vous indiquer le prochain lieu à atteindre.<br/>
-	Lorsque vous etes sur le point, vous disposerez d'informations à ce sujet ainsi qu'une question en lien avec ces informations. 
+	Peu importe la longueur du parcours sélectionné, vous aurez une carte avec un point de départ se situant très proche de la place du Trocadéro. <br/>
+	Ensuite, le point sur la carte changera d'emplacement en fonction de vos déplacements afin de vous indiquer le prochain lieu à atteindre.<br/>
+	Lorsque vous etes sûr le point, vous disposerez d'informations à ce sujet ainsi qu'une question en lien avec ces informations.
 	<br/><br/>
-	Ce site a été crée par un groupe d'étudiant venant de l'IUT de Marne la vallée de la filière Informatique.
+	Ce site a été crée par un groupe d'étudiants venant de l'IUT de Marne-la-vallée de la filière DUT Informatique.
 	<br/><br/>
-	Sur la page Le Trocadero vous pouvez obtenir des informations supplémentaires sur
+	Sur la page "Le Trocadéro", vous pouvez obtenir des informations supplémentaires sur
 	certains monuments que vous verrez pendant le rallye.
 contenu_accueil
 );
@@ -83,22 +83,22 @@ define("titre_place_trocadero", "Place du Trocadéro");
 define("Contenu_Place_du_Trocadero", <<<contenu_place_du_trocadero
 
 <br/>
-Son nom complet est enfaite: La place du Trocadéro-et-du-11-Novembre.
+Son nom complet est en fait: La place du Trocadéro et du 11 Novembre.
 Cette place se situe dans le 11ème arrondissement de Paris.
 <br/><br/>
-Son nom à été donné en souvenir de la bataille qui s'est déroulée le 31 août 1823, pendant laquelle 
+Son nom à été donné en souvenir de la bataille qui s'est déroulée le 31 août 1823, pendant laquelle
 un corps expéditionnaire français <br/>enleva aux mains des révolutionnaires libéraux espagnols le fort du Trocadéro,
-qui défendait le port de Cadix en Espagne, et rétablit l'autorité du monarque Ferdinand VII.
+qui défendaient le port de Cadix en Espagne, et rétablit l'autorité du monarque Ferdinand VII.
 <br/><br/>
-Le 11 novembre dans le nom de cette place correspond à armistice du 11 novembre 1918 qui 
+Le 11 novembre dans le nom de cette place correspond à l'armistice du 11 novembre 1918 qui
 marque la fin des combats de la Première Guerre mondiale.
 <br/><br/>
-Son diamètre est de 164 mètres, en son centre se trouve une statue équestre du maréchal Foch et 
-celle d'un monument à la gloire de l'armée française (crée toute les deux par Paul Labdowski).
+Son diamètre est de 164 mètres, en son centre se trouve une statue équestre du maréchal Foch, et
+celle d'un monument à la gloire de l'armée française (créées toutes les deux par Paul Labdowski).
 <br/><br/>
-C'est une belle place, ou souffle souvent du vent cela vient du fait qu'elle est 
-très ouverte, ce vent peut embêter quelques personnes mais ils nous permet cependant
-<br/> d'avoir une magnifique vue sur tout le jardin du trocadéro ainsi que bien sur la Tour Eiffel.
+C'est une belle place, où souffle souvent du vent : celà vient du fait qu'elle est
+très ouverte, ce vent peut embêter quelques personnes mais il nous permet cependant
+<br/> d'avoir une magnifique vue sur tout le jardin du Trocadéro, ainsi que sur la Tour Eiffel.
 
 contenu_place_du_trocadero
 );
@@ -118,24 +118,24 @@ contenu_palais_de_chaillot
 
 define("titre_tour_eiffel", "Tour Eiffel");
 define("Contenu_Tour_Eiffel", <<<contenu_tour_eiffel
-	
+
 <br/>
 La Tour Eiffel est une tour de fer puddlé (fonte affiné) de 324 mètres de hauteurs (avec son antenne).
 <br/><br/>
 Elle se situe bien evidemment à Paris, dans le 7ème arrondissement, construite par Gustave Eiffel et ses
-collaborateurs pour au départ l'exposition universelle de Paris de 1889. 
+collaborateurs pour au départ l'Exposition universelle de Paris de 1889.
 
 <br/>
-Elle était au départ nommée "tour de 300 mètres", elle est aujourd'hui devenue le symbole de la capital française.
+Elle était au départ nommée "tour de 300 mètres", elle est aujourd'hui devenue le symbole de la capitale française.
 <br/><br/>
-Elle est également un gros site touristique, c'est le troisième site culturelle français le plus visité, et
-le monument payant le plus visité au monde avec plus de 300 millions de visiteurs
+Elle est également un gros site touristique, c'est le troisième site culturel français le plus visité, et
+le monument payant le plus visité au monde avec plus de 300 millions de visiteurs.
 <br/><br/>
 D'une hauteur de 312 mètres, la Tour Eiffel est resté le monument le plus élevée au monde durant quarante ans.
 <br/><br/>
-Cette Tour pourtant connu comme le symbole de notre capital n'est pas unique au monde 
+Cette Tour pourtant connu comme le symbole de notre capitale n'est pas unique au monde :
 en effet au Japon se trouve la Tour de Tokyo.<br/>
-Celle-ci est quasiment identique à celle que nous connaissons mais elle possède cependant une différence: 
+Celle-ci est quasiment identique à celle que nous connaissons, mais elle possède cependant une différence : 
 sa couleur est rouge et blanche.
 
 contenu_tour_eiffel
