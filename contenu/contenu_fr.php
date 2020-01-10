@@ -35,7 +35,7 @@ define("Contenu_Accueil", <<<contenu_accueil
 	<br/><br/>
 	Ce site a été crée par un groupe d'étudiants venant de l'IUT de Marne-la-vallée de la filière DUT Informatique.
 	<br/><br/>
-	Sur la page "Le Trocadéro", vous pouvez obtenir des informations supplémentaires sur
+	Sur la page "Trocadéro", vous pouvez obtenir des informations supplémentaires sur
 	certains monuments que vous verrez pendant le rallye.
 contenu_accueil
 );
