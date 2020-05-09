@@ -76,7 +76,30 @@ contenu_contact
 // Jardins_du_Trocadero.php
 
 define("titre_jardins_trocadero", "Trocadero Gardens");
-define("Contenu_Jardins_du_Trocadero", "...");
+define("Contenu_Jardins_du_Trocadero", <<<contenu_Jardins_du_Trocadero
+
+The Trocadero gardens are located in the 16th arrondissement, facing the Seine.
+<br>
+These have a surface area of 93,930 m².
+<br><br>
+This garden was created for the Specialized Exhibition in 1937, 
+<br>
+it replaced the previous garden of the Palais du Trocadéro (now replaced by the Palais de Chaillot),
+<br>
+This garden is now bordered by the Palais de Chaillot.
+<br><br>
+These gardens consist of a combination of fountains, plantations and aquarium,
+<br>
+The gardens are also punctuated by a muted culture, most of which dates from the 1930s.
+<br><br>
+The sloping paths that run along the pools are often used for rollerblading, among other things.
+<br>
+Apparently, you can see "riders", skidding down the slope and doing crazy tricks.
+<br><br>
+This site is served by the Trocadero metro station.
+
+contenu_Jardins_du_Trocadero
+);
 
 // Place_du_Trocadero.php
 
@@ -111,7 +134,27 @@ define("titre_palais_chaillot", "Chaillot Palace");
 define("Contenu_Palais_de_Chaillot", <<<contenu_palais_de_chaillot
 
 <br/>
-The Chaillot Palace is located on the 'Chaillot' hill
+The Palais de Chaillot is located on the Chaillot hill in Paris, in the 16th arrondissement.
+<br>
+It is located exactly at the Trocadero square.
+<br><br>
+This building was constructed for the 1937 World's Fair.
+<br>
+Designed by the architects and Grand Prix de Rome Léon Azéma, Jacqques Carlu and Louis-Hippolyte Boileau.
+<br><br>
+Originally, in the place of this Chaillot's palace stood the Palais du Trocadero,<br>which was destroyed.
+to be replaced, but the new palace still kept
+
+<br>configuration of this one, notably these two wings in semi-circles.
+<br><br>
+The Palais de Chaillot is home to several museums:
+<br>
+- In its west wing is the Museum of Man and the Navy Museum.
+<br>
+- In its east wing is the Chaillot National Theatre and the City of Architecture and Heritage.
+<br><br>
+This site is of course served by the Trocadero metro station.
+
 
 contenu_palais_de_chaillot
 );
@@ -145,6 +188,33 @@ contenu_tour_eiffel
 );
 
 define("titre_champ_de_mars", "Fields of Mars");
-define("Contenu_Champs_de_Mars", "...");
+define("Contenu_Champs_de_Mars",<<<contenu_Champs_de_Mars
+
+The Champ-de-Mars is a vast public garden, entirely open. <br>
+This garden is located in Paris in the 7th arrondissement, between the Eiffel Tower and the Eiffel Tower. <br>
+to the northwest and the Military Academy to the southeast. <br>
+<br>
+It is 24.5 hectares in size, this garden is one of the largest green spaces in Paris.
+<br><br>
+It now welcomes Parisians and tourists all year round to a wide range of activities (except now:( )
+<br><br>
+It hosts concerts, exhibitions and fireworks, all free of charge.
+<br>
+To cite a few examples of great performances:
+<br><br>
+- On June 10th 2000, Johnny Hallyday performed a concert there, in front of more than 600,000 people.
+<br>
+- On Sunday 13 January 2013, La Manif pour tous is organising a 1,000,000-strong gathering on the Champ-de-Mars.
+<br>
+- Every year, on the evening of July 14, thousands of people come to watch the great 11pm fireworks display.
+<br><br>
+In 1765 the construction of the Military School, by Gabriel, leads to its destination.
+<br>
+So it was basically just a big country area.
+<br><br>
+This site is served by the metro 8, station Ecole Militaire.
+
+contenu_Champs_de_Mars
+);
 ?>
 
