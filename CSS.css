@@ -282,3 +282,20 @@ a:hover {
 	margin-bottom: auto;
 	padding: 15px;
 }
+
+.loginBOX{
+    width: 350px;
+    height: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    background: #191919;
+    text-align: center;
+}
+
+.parent {
+	margin-top: 15vh;
+	transform: translateY(-15%);
+}
