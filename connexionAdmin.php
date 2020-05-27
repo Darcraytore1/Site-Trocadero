@@ -62,7 +62,7 @@
 				echo "authentification reussie";
 				$_SESSION['login'] = $login;
 				$_SESSION['pwd'] = $pwd;
-				header("Location: accueilAdmin.php");
+				header("Location: index.php");
 				exit;
 				break;
 			case 2:
