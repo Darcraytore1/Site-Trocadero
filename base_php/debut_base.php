@@ -50,7 +50,9 @@ if ($_GET["lang"] === "fr") {
 				</div>	
 				<div>
 					<p>
-						<?php echo "Admin"; ?>
+						<?php echo "Admin"; 
+						
+						?>
 					</p>
 				</div>
 			</div>
