@@ -16,7 +16,7 @@
 	?>	
 		<form method="POST">
 			Enter your changes : <br>
-			<textarea name = "contenu">
+			<textarea name = "contenu" rows="30" cols="120">
 				<?php
 					$request= "SELECT contenu FROM T_contenu_eng WHERE monument = '$section'";
 					$pdoStatement = $dbh->query($request);
