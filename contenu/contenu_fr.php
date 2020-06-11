@@ -43,15 +43,27 @@ define("Champ_de_Mars", "Champ de Mars");
 
 
 // Contact.php
-$contenu_Contact = $dbh->query("SELECT `contenu` FROM `T_contenu` WHERE `monument` = 'Contact'")->fetchAll(PDO::FETCH_ASSOC);
-$contenu_C = $contenu_Contact[0]['contenu'];
+//$contenu_Contact = $dbh->query("SELECT `contenu` FROM `T_contenu` WHERE `monument` = 'Contact'")->fetchAll(PDO::FETCH_ASSOC);
+//$contenu_C = $contenu_Contact[0]['contenu'];
+/*
 define("Contenu_Contact",
 
 <<<contenu_contact
-	$contenu_C
+	
+	<br/>
+		DELPORTE Logan : Design <img src = "image/logan.png"><a href="https://www.linkedin.com/in/logan-delporte-b04b7a19b/"><img src="image/logo-linkedin.png"></a>
+	<br/>
+		DOS SANTOS Sebastien : Codage  <a href="https://www.linkedin.com/in/s%C3%A9bastien-dos-santos-77091a1a0/"><img src="image/logo-linkedin.png"></a>
+	<br/>
+		DELMAS Jean : Communiquant <a href="https://www.linkedin.com/in/jdelmas0/"><img src="image/logo-linkedin.png"></a>
+	<br/>
+		ALBISSON Damien : Codage <a href="https://www.linkedin.com/in/damien-albisson-9816a11a5/"><img src="image/logo-linkedin.png"></a>
+
+
 contenu_contact
 
 );
+*/
 
 // Jardins_du_Trocadero.php
 $contenu_Jardins_du_Trocadero = $dbh->query("SELECT `contenu` FROM `T_contenu` WHERE `monument` = 'Jardins_du_Trocadero'")->fetchAll(PDO::FETCH_ASSOC);
