@@ -3,6 +3,7 @@ include("connexionBDD.php");
 
 define("langue", "Langue");
 define("connexion","Connexion");
+define("ajout","ajout");
 
 // debut_base.php
 

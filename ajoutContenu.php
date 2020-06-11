@@ -1,7 +1,7 @@
 <?php
 	include("connexionBDD.php");
 	session_start();
-	session_unset();
+	if (isset($_SESSION['login'])){
 ?>
 
 <!DOCTYPE html>
@@ -66,6 +66,11 @@
 		}
 	?>
 
-
+<?php 
+} 
+else {
+	include("pageNonAuthorise.php");
+}
+?>
 </body>
 </html>

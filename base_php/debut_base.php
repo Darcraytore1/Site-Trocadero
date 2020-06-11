@@ -1,11 +1,11 @@
 <?php 
+session_start();
 if (!isset($_GET["lang"])) {
 	$lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
 	if ($lang != 'fr')
 	    $lang = 'en';
 	header("Location: index.php?lang=$lang");
 }
-
 if ($_GET["lang"] === "fr") {
 	require_once "contenu/contenu_fr.php"; 
 } else {
@@ -51,15 +51,34 @@ if ($_GET["lang"] === "fr") {
 				<div>
 					<p>
 						<?php echo "Admin "; ?>
-					
-					<div class="bouton <?php if ($_SERVER["SCRIPT_NAME"] === "/ajoutContenu.php") { ?>active<?php } ?>">
-						<a href="ajoutContenu.php"> 
-							<p>
-								<?php echo connexion; ?> 
-							</p>
-						</a>
-					</div>
-						
+					<?php if (isset($_SESSION['login'])){ ?>
+						<div class="bouton <?php if ($_SERVER["SCRIPT_NAME"] === "/ajoutContenu.php") { ?>active<?php } ?>">
+							<?php if ($_GET["lang"] == "fr") {?>
+							<a href="ajoutContenu.php"> 
+							<?php 
+							} 
+							else {
+							?>
+							<a href="ajoutContenuEng.php"> 
+							<?php } ?>
+								<p>
+									<?php echo ajout; ?> 
+								</p>
+							</a>
+						</div>
+					<?php 
+						} 
+						else{
+					?>
+						<div class="bouton <?php if ($_SERVER["SCRIPT_NAME"] === "/ajoutContenu.php") { ?>active<?php } ?>">
+							<a href="connexionAdmin.php"> 
+								<p>
+									<?php echo connexion; ?> 
+								</p>
+							</a>
+						</div>
+					<?php } ?>
+	
 					</p>
 				</div>
 			</div>
