@@ -7,7 +7,7 @@ define("ajout","ajout");
 
 // debut_base.php
 
-define("Titre_page", "Rallye culturelle du trocadéro");
+define("Titre_page", "La place du Trocadéro");
 define("Accueil", "Accueil");
 define("Rallye", "Rallye");
 define("Trocadero", "Trocadero");

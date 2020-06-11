@@ -6,7 +6,7 @@ define("ajout","add");
 
 // debut_base.php
 
-define("Titre_page", "The Trocadero Cultural Rally");
+define("Titre_page", "The Trocadero place");
 define("Accueil", "Home");
 define("Rallye", "Rally");
 define("Trocadero", "Trocadero");
