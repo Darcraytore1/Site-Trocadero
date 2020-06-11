@@ -50,6 +50,7 @@
 			</select><br>
 
 			<input type="submit" name="">
+		</form>
 	<?php
 		}
 	?>
@@ -65,7 +66,10 @@
 			}
 		}
 	?>
-
+	<br><br>
+	<form method="POST" action="index.php">
+		<input type="submit" value="retour">
+	</form>
 <?php 
 } 
 else {
