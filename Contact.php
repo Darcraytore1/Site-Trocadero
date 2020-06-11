@@ -37,7 +37,7 @@
 	  
 	  <div class="second">
 
-		  <img class="profil" src="images/corentin.jpg">
+		  <img class="profil" src="image/damien.png">
 		  <div class="description">	  
 			  <p>ALBISSON Damien<br>Codeur</p>		 
 		  </div>
