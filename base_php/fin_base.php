@@ -7,6 +7,10 @@
 	    <div> 
 	    	<a href="http://www.u-pem.fr/"><img src="image/upem.png"></a>
 	   	</div>
+
+	   	<div>
+	   		<a href="http://idea.univ-paris-est.fr/fr"><img src="image/logo-idea.png"></a>
+	   	</div>
 	   	
 	    <div>
 	    	<p>
