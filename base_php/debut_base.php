@@ -48,6 +48,11 @@ if ($_GET["lang"] === "fr") {
 						<img src="image/english_flag.png">
 					</a>
 				</div>	
+				<div>
+					<p>
+						<?php echo "Admin"; ?>
+					</p>
+				</div>
 			</div>
 		</div>
 
