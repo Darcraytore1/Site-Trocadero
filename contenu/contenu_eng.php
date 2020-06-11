@@ -54,7 +54,7 @@ define("Contenu_Contact",
 	  
 	  <div class="second">
 
-		  <img id="logan" src="image/logan.png">
+		  <img src="image/logan.png">
 		  <div class="description">	  
 			  <p>DELPORTE Logan<br>Designeur</p> 
 		  </div>
@@ -65,7 +65,7 @@ define("Contenu_Contact",
 	  <div class="second">
 		  
 
-		  <img id="sebastien" src="image/sebastien.png">
+		  <img src="image/sebastien.png">
 		  <div class="description">	  
 			  <p>DOS SANTOS Sébastien<br>Programmer</p>		 
 	      </div>
@@ -76,7 +76,7 @@ define("Contenu_Contact",
 	  
 	  <div class="second">
 
-		  <img class="profil" src="image/damien.png">
+		  <img src="image/damien.png">
 		  <div class="description">	  
 			  <p>ALBISSON Damien<br>Programmer</p>		 
 		  </div>
@@ -87,7 +87,7 @@ define("Contenu_Contact",
 	  
 	  <div class="second">
 
-		  <img class="profil" src="image/jean.png">
+		  <img src="image/jean.png">
 		  <div class="description">	  
 			  <p>DELMAS Jean<br>Communicant</p>		 
 		  </div>
