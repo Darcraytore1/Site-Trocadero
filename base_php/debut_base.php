@@ -50,9 +50,16 @@ if ($_GET["lang"] === "fr") {
 				</div>	
 				<div>
 					<p>
-						<?php echo "Admin"; 
+						<?php echo "Admin "; ?>
+					
+					<div class="bouton <?php if ($_SERVER["SCRIPT_NAME"] === "/ajoutContenu.php") { ?>active<?php } ?>">
+						<a href="ajoutContenu.php"> 
+							<p>
+								<?php echo connexion; ?> 
+							</p>
+						</a>
+					</div>
 						
-						?>
 					</p>
 				</div>
 			</div>
