@@ -42,12 +42,57 @@ define("Champ_de_Mars", "Fields of Mars");
 
 
 // Contact.php
-$contenu_Contact = $dbh->query("SELECT `contenu` FROM `T_contenu_eng` WHERE `monument` = 'Contact'")->fetchAll(PDO::FETCH_ASSOC);
-$contenu_C = $contenu_Contact[0]['contenu'];
+//$contenu_Contact = $dbh->query("SELECT `contenu` FROM `T_contenu_eng` WHERE `monument` = 'Contact'")->fetchAll(PDO::FETCH_ASSOC);
+//$contenu_C = $contenu_Contact[0]['contenu'];
 define("Contenu_Contact", 
 
 <<<contenu_contact
-	$contenu_C
+	
+	<div class="principale">
+	  
+	  <div class="second">
+
+		  <img id="logan" src="image/logan.png">
+		  <div class="description">	  
+			  <p>DELPORTE Logan<br>Designeur</p> 
+		  </div>
+
+		  <a href="https://www.linkedin.com/in/logan-delporte-b04b7a19b/" target="_blank"><img src="image/logo-linkedin.png" alt="link1"></a>
+	  </div> 
+	  
+	  <div class="second">
+		  
+
+		  <img id="sebastien" src="image/sebastien.png">
+		  <div class="description">	  
+			  <p>DOS SANTOS Sébastien<br>Programmer</p>		 
+	      </div>
+
+		  <a href="https://www.linkedin.com/in/s%C3%A9bastien-dos-santos-77091a1a0/" target="_blank"><img src="image/logo-linkedin.png" alt="link1"></a>
+	  </div>
+	  
+	  
+	  <div class="second">
+
+		  <img class="profil" src="image/damien.png">
+		  <div class="description">	  
+			  <p>ALBISSON Damien<br>Programmer</p>		 
+		  </div>
+
+		  <a href="https://www.linkedin.com/in/damien-albisson-9816a11a5/" target="_blank"><img src="image/logo-linkedin.png" alt="link1"></a>
+      </div>
+	  
+	  
+	  <div class="second">
+
+		  <img class="profil" src="image/jean.png">
+		  <div class="description">	  
+			  <p>DELMAS Jean<br>Communicant</p>		 
+		  </div>
+		  <a href="https://www.linkedin.com/in/jdelmas0/" target="_blank"><img src="image/logo-linkedin.png" alt="link1"></a>
+	  </div>
+  </div>
+
 contenu_contact
 
 );

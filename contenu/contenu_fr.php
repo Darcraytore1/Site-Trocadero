@@ -45,25 +45,61 @@ define("Champ_de_Mars", "Champ de Mars");
 // Contact.php
 //$contenu_Contact = $dbh->query("SELECT `contenu` FROM `T_contenu` WHERE `monument` = 'Contact'")->fetchAll(PDO::FETCH_ASSOC);
 //$contenu_C = $contenu_Contact[0]['contenu'];
-/*
+
 define("Contenu_Contact",
 
 <<<contenu_contact
 	
-	<br/>
-		DELPORTE Logan : Design <img src = "image/logan.png"><a href="https://www.linkedin.com/in/logan-delporte-b04b7a19b/"><img src="image/logo-linkedin.png"></a>
-	<br/>
-		DOS SANTOS Sebastien : Codage  <a href="https://www.linkedin.com/in/s%C3%A9bastien-dos-santos-77091a1a0/"><img src="image/logo-linkedin.png"></a>
-	<br/>
-		DELMAS Jean : Communiquant <a href="https://www.linkedin.com/in/jdelmas0/"><img src="image/logo-linkedin.png"></a>
-	<br/>
-		ALBISSON Damien : Codage <a href="https://www.linkedin.com/in/damien-albisson-9816a11a5/"><img src="image/logo-linkedin.png"></a>
+	<div class="principale">
+	  
+	  <div class="second">
+
+		  <img id="logan" src="image/logan.png">
+		  <div class="description">	  
+			  <p>DELPORTE Logan<br>Designeur</p> 
+		  </div>
+
+		  <a href="https://www.linkedin.com/in/logan-delporte-b04b7a19b/" target="_blank"><img src="image/logo-linkedin.png" alt="link1"></a>
+	  </div> 
+	  
+	  <div class="second">
+		  
+
+		  <img id="sebastien" src="image/sebastien.png">
+		  <div class="description">	  
+			  <p>DOS SANTOS Sébastien<br>Codeur</p>		 
+	      </div>
+
+		  <a href="https://www.linkedin.com/in/s%C3%A9bastien-dos-santos-77091a1a0/" target="_blank"><img src="image/logo-linkedin.png" alt="link1"></a>
+	  </div>
+	  
+	  
+	  <div class="second">
+
+		  <img class="profil" src="image/damien.png">
+		  <div class="description">	  
+			  <p>ALBISSON Damien<br>Codeur</p>		 
+		  </div>
+
+		  <a href="https://www.linkedin.com/in/damien-albisson-9816a11a5/" target="_blank"><img src="image/logo-linkedin.png" alt="link1"></a>
+      </div>
+	  
+	  
+	  <div class="second">
+
+		  <img class="profil" src="image/jean.png">
+		  <div class="description">	  
+			  <p>DELMAS Jean<br>Communiquant</p>		 
+		  </div>
+		  <a href="https://www.linkedin.com/in/jdelmas0/" target="_blank"><img src="image/logo-linkedin.png" alt="link1"></a>
+	  </div>
+  </div>
 
 
 contenu_contact
 
 );
-*/
+
 
 // Jardins_du_Trocadero.php
 $contenu_Jardins_du_Trocadero = $dbh->query("SELECT `contenu` FROM `T_contenu` WHERE `monument` = 'Jardins_du_Trocadero'")->fetchAll(PDO::FETCH_ASSOC);
