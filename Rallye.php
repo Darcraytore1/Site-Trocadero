@@ -10,12 +10,6 @@
 
 
     <h3>
-        <a href="Place_du_Trocadero.php?lang=<?php echo $_GET["lang"] ?>"> <?php echo Place_du_Trocadéro; ?> </a>
-    </h3>
-    <hr class="trait-court">
-
-
-    <h3>
         <a href="Tour_Eiffel.php?lang=<?php echo $_GET["lang"] ?>"> <?php echo Tour_Eiffel; ?> </a>
     </h3>
     <hr class="trait-court">
