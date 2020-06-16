@@ -5,7 +5,7 @@
 		</div>
 
 	    <div> 
-	    	<a href="http://www.u-pem.fr/"><img src="image/upem.png"></a>
+	    	<a href="https://www.univ-gustave-eiffel.fr/"><img src="image/univ_eiffel.png"></a>
 	   	</div>
 
 	   	<div>
