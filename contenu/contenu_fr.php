@@ -9,7 +9,7 @@ define("ajout","ajout");
 
 define("Titre_page", "La place du Trocadéro");
 define("Accueil", "Accueil");
-define("Rallye", "Rallye");
+define("Rallye", "A Visiter");
 define("Trocadero", "Trocadero");
 define("Contact", "Contact");
 
@@ -116,14 +116,25 @@ contenu_Jardins_du_Trocadero
 );
 
 // Place_du_Trocadero.php
-$contenu_Place_du_Trocadero = $dbh->query("SELECT `contenu` FROM `T_contenu` WHERE `monument` = 'Place_du_Trocadero'")->fetchAll(PDO::FETCH_ASSOC);
+$contenu_Place_du_Trocadero = $dbh->query("SELECT `contenu` FROM `T_contenu` WHERE `monument` = 'Trocadero'")->fetchAll(PDO::FETCH_ASSOC);
 $contenu_Place = $contenu_Place_du_Trocadero[0]['contenu'];
-define("titre_place_trocadero", "Place du Trocadéro");
 define("Contenu_Place_du_Trocadero", 
 
 <<<contenu_place_du_trocadero
 	$contenu_Place
 contenu_place_du_trocadero
+
+);
+
+// Trocadero.php
+$contenu_Trocadero = $dbh->query("SELECT `contenu` FROM `T_contenu` WHERE `monument` = 'Trocadero'")->fetchAll(PDO::FETCH_ASSOC);
+$contenu = $contenu_Trocadero[0]['contenu'];
+define("titre_place_trocadero", "Place du Trocadéro");
+define("contenu_Trocadero", 
+
+<<<contenu_Trocadero
+	$contenu
+contenu_Trocadero
 
 );
 
