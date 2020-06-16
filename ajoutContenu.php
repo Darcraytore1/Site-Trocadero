@@ -8,6 +8,7 @@
 <html>
 <head>
 	<title>Ajout contenu</title>
+	<link rel="stylesheet" type="text/css" href="CSS.css">
 </head>
 <body>
 	<?php
@@ -15,7 +16,7 @@
 		$section = $_POST['section'];
 	?>	
 		<form method="POST">
-			Rentrer vos modifications : <br>
+			<p>Rentrer vos modifications : <br></p>
 			<textarea name = "contenu" rows="30" cols="120">
 				<?php
 					$request= "SELECT contenu FROM T_contenu WHERE monument = '$section'";
@@ -35,7 +36,7 @@
 	else{
 	?>
 		<form method="POST">
-			Rentrer la section que vous voulez modifier : <select name = "section">
+			<p>Rentrer la section que vous voulez modifier : <select name = "section"></p>
 				<option value = "">--Section--</option>
 				<?php
 					$request= "SELECT * FROM T_contenu";
@@ -60,9 +61,9 @@
 			try {
 					$sql = "UPDATE T_contenu SET contenu = ? WHERE monument = ?";
 					$dbh->prepare($sql)->execute([$_POST['contenu'],$_POST['section']]);
-					echo "L'enregistrement de code ".$_POST['section']." a bien ete ajoute";
+					echo "<p>L'enregistrement de code ".$_POST['section']." a bien ete ajoute</p>";
 				} catch (Exception $e) {
-					die('Problème rencontre!'.$e->getMessage());
+					die('<p>Problème rencontre!'.$e->getMessage()."</p>");
 			}
 		}
 	?>

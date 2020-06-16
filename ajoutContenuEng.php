@@ -8,6 +8,7 @@
 <html>
 <head>
 	<title>Add content</title>
+	<link rel="stylesheet" type="text/css" href="CSS.css">
 </head>
 <body>
 	<?php
@@ -15,7 +16,7 @@
 		$section = $_POST['section'];
 	?>	
 		<form method="POST">
-			Enter your changes : <br>
+			<p>Enter your changes : <br></p>
 			<textarea name = "contenu" rows="30" cols="120">
 				<?php
 					$request= "SELECT contenu FROM T_contenu_eng WHERE monument = '$section'";
@@ -25,7 +26,7 @@
 				?>
 			</textarea>
 			<input type="hidden" name="section" value = "<?php echo "".$_POST['section']."" ?>">
-			<input type="submit" name="">
+			<input type="submit" name="Send">
 		</form>
 		<?php
 		?>
@@ -35,7 +36,7 @@
 	else{
 	?>
 		<form method="POST">
-			Enter the section you want to modify : <select name = "section">
+			<p>Enter the section you want to modify : <select name = "section"></p>
 				<option value = "">--Section--</option>
 				<?php
 					$request= "SELECT * FROM T_contenu_eng";
@@ -49,7 +50,7 @@
 			?>
 			</select><br>
 
-			<input type="submit" name="">
+			<input type="submit" name="Send">
 		</form>
 	<?php
 		}
@@ -60,9 +61,9 @@
 			try {
 					$sql = "UPDATE T_contenu_eng SET contenu = ? WHERE monument = ?";
 					$dbh->prepare($sql)->execute([$_POST['contenu'],$_POST['section']]);
-					echo "L'enregistrement de code ".$_POST['section']." a bien ete ajoute";
+					echo "<p>The code entered for ".$_POST['section']." has been added</p>";
 				} catch (Exception $e) {
-					die('Problème rencontre!'.$e->getMessage());
+					die('<p>Problem encountered!'.$e->getMessage()."</p>");
 			}
 		}
 	?>
