@@ -37,7 +37,6 @@
 	?>
 		<form method="POST">
 			<p>Rentrer la section que vous voulez modifier : <select name = "section"></p>
-				<option value = "">--Section--</option>
 				<?php
 					$request= "SELECT * FROM T_contenu";
 					$pdoStatement = $dbh->query($request);
