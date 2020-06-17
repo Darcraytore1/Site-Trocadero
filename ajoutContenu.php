@@ -1,6 +1,7 @@
 <?php
 	include("connexionBDD.php");
 	session_start();
+	//require 'base_php/debut_base.php';
 	if (isset($_SESSION['login'])){
 ?>
 
@@ -37,7 +38,6 @@
 	?>
 		<form method="POST">
 			<p>Rentrer la section que vous voulez modifier : <select name = "section"></p>
-				<option value = "">--Section--</option>
 				<?php
 					$request= "SELECT * FROM T_contenu";
 					$pdoStatement = $dbh->query($request);
