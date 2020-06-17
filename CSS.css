@@ -32,6 +32,7 @@ p, h1, h2, h3, h4, h5, h6
 	color: white;
 }
 
+
 h1, h2, h3, h4, h5, h6
 {
 	font-family: "Dyno", Helvetica, Arial, sans-serif;
@@ -137,10 +138,10 @@ a:hover {
 	padding: 1px 0;
 }
 
-/*#entete{
+#entete{
 	text-align: center;
-	background: url(image/logo.png) top left no-repeat;
-}*/
+	background: url(image/banniere.png) top left no-repeat;
+}
 
 #main{
 	max-width: 1900px;
@@ -187,13 +188,14 @@ a:hover {
 
 #boutons .bouton
 {
-	background-color: #505050;
-	width: 18%;
+	color: #000;
+	background-color: #f7af3e;
+	width: 100%;
 }
 
 #boutons .active
 {
-	background-color: #ea5c0d;
+	/*background-color: #ea5c0d;*/
 }
 
 #map
