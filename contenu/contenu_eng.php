@@ -56,7 +56,7 @@ define("Contenu_Contact",
 
 		  <img src="image/logan.png">
 		  <div class="description">	  
-			  <p>DELPORTE Logan<br>Designeur</p> 
+			  <p>DELPORTE Logan<br>Designer</p> 
 		  </div>
 
 		  <a href="https://www.linkedin.com/in/logan-delporte-b04b7a19b/" target="_blank"><img src="image/logo-linkedin.png" alt="link1"></a>
