@@ -25,10 +25,6 @@ if ($_GET["lang"] === "fr") {
 <body>
 	<header>
 		<div id = "entete">
-			<div id="logo">
-				<img src="image/logo.png">
-			</div>
-			
 			<div id="titre">
 				<h1 class="titre-principal">
 					<?php echo Titre_page; ?> 
