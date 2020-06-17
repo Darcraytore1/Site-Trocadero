@@ -62,6 +62,13 @@ if ($_GET["lang"] === "fr") {
 								</p>
 							</a>
 						</div>
+						<div>
+							<a href="deconnexion.php">
+								<p>
+									<?php echo deconnexion; ?>
+								</p>
+							</a>
+						</div>
 					<?php 
 						} 
 						else{
