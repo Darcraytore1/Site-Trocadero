@@ -10,7 +10,7 @@
 				<?php echo titre_palais_chaillot; ?>
 			</h2>
 			<p>
-				<?php echo Contenu_Palais_de_Chaillot; ?> 
+				<?php echo html_entity_decode(Contenu_Palais_de_Chaillot); ?> 
 			</p>
 		</div>
 	</div>

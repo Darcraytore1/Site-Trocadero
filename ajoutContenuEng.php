@@ -37,6 +37,7 @@
 	?>
 		<form method="POST">
 			<p>Enter the section you want to modify : <select name = "section"></p>
+				<option value = "">--Section--</option>
 				<?php
 					$request= "SELECT * FROM T_contenu_eng";
 					$pdoStatement = $dbh->query($request);
@@ -58,8 +59,9 @@
 	<?php
 		if(isset($_POST['contenu'])){
 			try {
-					$sql = "UPDATE T_contenu_eng SET contenu = ? WHERE monument = ?";
-					$dbh->prepare($sql)->execute([$_POST['contenu'],$_POST['section']]);
+					$updateContenu = htmlentities($_POST['contenu']);
+					$sql = "UPDATE T_contenu SET contenu = ? WHERE monument = ?";
+					$dbh->prepare($sql)->execute([$updateContenu,$_POST['section']]);
 					echo "<p>The code entered for ".$_POST['section']." has been added</p>";
 				} catch (Exception $e) {
 					die('<p>Problem encountered!'.$e->getMessage()."</p>");

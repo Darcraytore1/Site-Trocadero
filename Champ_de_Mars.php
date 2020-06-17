@@ -10,7 +10,7 @@
 				<?php echo titre_champ_de_mars; ?>
 			</h2>
 			<p>
-				<?php echo Contenu_Champs_de_Mars; ?> 
+				<?php echo html_entity_decode(Contenu_Champs_de_Mars); ?> 
 			</p>
 		</div>
 	</div>

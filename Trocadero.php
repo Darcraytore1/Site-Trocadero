@@ -10,7 +10,7 @@
 				<?php echo titre_place_trocadero; ?>
 			</h2>
 			<p>
-				<?php echo contenu_Trocadero; ?> 
+				<?php echo html_entity_decode(contenu_Trocadero); ?> 
 			</p>
 		</div>
 	</div>

@@ -1,7 +1,6 @@
 <?php
 	include("connexionBDD.php");
 	session_start();
-	//require 'base_php/debut_base.php';
 	if (isset($_SESSION['login'])){
 ?>
 
@@ -38,6 +37,7 @@
 	?>
 		<form method="POST">
 			<p>Rentrer la section que vous voulez modifier : <select name = "section"></p>
+				<option value = "">--Section--</option>
 				<?php
 					$request= "SELECT * FROM T_contenu";
 					$pdoStatement = $dbh->query($request);
@@ -59,11 +59,12 @@
 	<?php
 		if(isset($_POST['contenu'])){
 			try {
+					$updateContenu = htmlentities($_POST['contenu']);
 					$sql = "UPDATE T_contenu SET contenu = ? WHERE monument = ?";
-					$dbh->prepare($sql)->execute([$_POST['contenu'],$_POST['section']]);
-					echo "<p>L'enregistrement de code ".$_POST['section']." a bien ete ajoute</p>";
+					$dbh->prepare($sql)->execute([$updateContenu,$_POST['section']]);
+					echo "<p>L'enregistrement de code ".$_POST['section']." a bien ete ajouté.</p>";
 				} catch (Exception $e) {
-					die('<p>Problème rencontre!'.$e->getMessage()."</p>");
+					die('<p>Problème rencontré!'.$e->getMessage()."</p>");
 			}
 		}
 	?>

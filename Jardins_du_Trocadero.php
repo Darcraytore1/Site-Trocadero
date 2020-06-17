@@ -7,7 +7,7 @@
 				<?php echo titre_jardins_trocadero; ?>
 			</h2>
 			<p>
-				<?php echo Contenu_Jardins_du_Trocadero; ?> 
+				<?php echo html_entity_decode(Contenu_Jardins_du_Trocadero); ?> 
 			</p>
 		</div>
 

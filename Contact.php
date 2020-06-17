@@ -4,7 +4,7 @@
 	<div id="contact"> 
 		<div id="main">
 			<p>
-				<?php echo Contenu_Contact; ?> 
+				<?php echo html_entity_decode(Contenu_Contact); ?> 
 			</p>
 		</div>
 

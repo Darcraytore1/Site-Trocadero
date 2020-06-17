@@ -41,7 +41,7 @@
   	</div>
 
 	<p>
-		<?php echo Contenu_Accueil; ?> 
+		<?php echo html_entity_decode(Contenu_Accueil); ?> 
 	</p>
 		
 
